@@ -6,7 +6,19 @@
     <description>Recent content in elisp on ~/blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 25 Oct 2020 16:23:21 +0100</lastBuildDate><atom:link href="http://giampaolo.guiducci.it/blog/tags/elisp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 11:26:34 +0100</lastBuildDate><atom:link href="http://giampaolo.guiducci.it/blog/tags/elisp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inserire la data corrente con Emacs</title>
+      <link>http://giampaolo.guiducci.it/blog/posts/inserire-la-data-corrente-con-emacs/</link>
+      <pubDate>Sun, 01 Nov 2020 11:26:34 +0100</pubDate>
+      
+      <guid>http://giampaolo.guiducci.it/blog/posts/inserire-la-data-corrente-con-emacs/</guid>
+      <description>&lt;p&gt;Da molti anni tengo una sorta di diario all&amp;rsquo;interno di un file &lt;code&gt;.org&lt;/code&gt;, mi trovo
+quindi quotidianamente a dover inserire la data del giorno corrente. Non
+essendoci una funzione di Emacs atta allo scopo, ho deciso di crearmene una
+tutta mia. Non per niente, il punto forte di Emacs è la sua estensibilità.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Elenco delle funzioni primitive in Emacs</title>
       <link>http://giampaolo.guiducci.it/blog/posts/elenco-delle-funzioni-primitive-in-emacs/</link>
