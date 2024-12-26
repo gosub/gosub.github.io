@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Giampaolo Guiducci</title>
+    <link>https://giampaolo.guiducci.it/tags/</link>
+    <description>Recent content in Tags on Giampaolo Guiducci</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2024 14:58:41 +0100</lastBuildDate>
+    <atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs</title>
+      <link>https://giampaolo.guiducci.it/tags/emacs/</link>
+      <pubDate>Wed, 25 Dec 2024 14:58:41 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/tags/emacs/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
