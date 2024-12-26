@@ -60,7 +60,7 @@ weight = 4
 #+end_src
 ** cname
 #+name: cname
-#+begin_src :tangle static/CNAME
+#+begin_src cname :tangle site/static/CNAME
 giampaolo.guiducci.it
 #+end_src
 * posts
