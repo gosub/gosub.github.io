@@ -1,0 +1,3 @@
+[submodule "site/themes/cactus"]
+	path = site/themes/cactus
+	url = https://github.com/gosub/hugo-theme-cactus.git
