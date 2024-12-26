@@ -1,0 +1,86 @@
+#+hugo_base_dir: site/
+* site config
+** main
+#+name: main
+#+begin_src toml :tangle site/hugo.toml :noweb yes
+  baseURL = 'https://giampaolo.guiducci.it/'
+  languageCode = 'en-us'
+  title = 'Giampaolo Guiducci'
+  theme = 'cactus'
+  publishDir = '../public'
+
+  [params]
+    description = "An empty set, by construction."
+    mainSection = "posts"
+    mainSectionTitle = "posts"
+    <<socials>>
+
+  <<menu>>
+
+  [markup.goldmark.renderer]
+    unsafe = true
+#+end_src
+*** socials
+#+name: socials
+#+begin_src toml
+[[params.social]]
+  name = "email"
+  link = "giampaolo.guiducci@gmail.com"
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/gosub"
+
+[[params.social]]
+  name = "instagram"
+  link = "https://instagram.com/sottoforma"
+#+end_src
+*** menu
+#+name:menu
+#+begin_src toml
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "μlog"
+url = "/μlog"
+weight = 3
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 4
+#+end_src
+** cname
+#+name: cname
+#+begin_src :tangle static/CNAME
+giampaolo.guiducci.it
+#+end_src
+* posts
+** First post :emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-12-25-first-post
+:EXPORT_DATE: 2024-12-25T14:58:41+01:00
+:END:
+First post!
+
+This post will soon disappear.
+* pages
+** microlog
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:EXPORT_FILE_NAME: μlog
+:END:
+*** I have no audience, and I must scream. [2013-01-03]
+*** This entry intentionally left blank [2013-01-03]
+* refs
+- [[https://gohugo.io/documentation/][hugo]]
+- [[https://ox-hugo.scripter.co/][ox-hugo]]
+- [[https://github.com/monkeyWzr/hugo-theme-cactus][cactus theme]]
