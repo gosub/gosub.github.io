@@ -12,6 +12,7 @@
   [params]
     description = "An empty set, by construction."
     mainSection = "posts"
+    mainSections = ["posts"]
     mainSectionTitle = "posts"
     <<socials>>
 
