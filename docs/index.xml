@@ -6,8 +6,15 @@
     <description>Recent content on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2024 14:58:41 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 18:27:29 +0100</lastBuildDate>
     <atom:link href="https://giampaolo.guiducci.it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first note</title>
+      <link>https://giampaolo.guiducci.it/notes/2024-12-27-first-note/</link>
+      <pubDate>Fri, 27 Dec 2024 18:27:29 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/notes/2024-12-27-first-note/</guid>
+      <description>&lt;p&gt;First note. This will disappear. soon.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First post</title>
       <link>https://giampaolo.guiducci.it/posts/2024-12-25-first-post/</link>

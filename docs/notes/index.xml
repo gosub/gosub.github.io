@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Giampaolo Guiducci</title>
+    <link>https://giampaolo.guiducci.it/notes/</link>
+    <description>Recent content in Notes on Giampaolo Guiducci</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2024 18:27:29 +0100</lastBuildDate>
+    <atom:link href="https://giampaolo.guiducci.it/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first note</title>
+      <link>https://giampaolo.guiducci.it/notes/2024-12-27-first-note/</link>
+      <pubDate>Fri, 27 Dec 2024 18:27:29 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/notes/2024-12-27-first-note/</guid>
+      <description>&lt;p&gt;First note. This will disappear. soon.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
