@@ -70,14 +70,108 @@ weight = 5
 giampaolo.guiducci.it
 #+end_src
 * posts
-** First post :emacs:
+** Random patch generator for Behringer Edge :behringer_edge:
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2024-12-25-first-post
-:EXPORT_DATE: 2024-12-25T14:58:41+01:00
+:EXPORT_FILE_NAME: 2024-12-28-edge-random-patch
+:EXPORT_DATE: 2024-12-28T16:33:35+01:00
 :END:
-First post!
 
-This post will soon disappear.
+Inspired by the video from mylarmelodies where he discuss with Tom Whitwell
+about The Music Thing Workshop System.  In that video Tom says that he created a
+random patch generator for the Workshop System, and I wanted to make one too for
+the synth I have, the Behringer Edge.
+
+#+begin_export html
+    <style>
+        .pair {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .input, .output {
+            height: 30px;
+            border-radius: 25px;
+            padding: 0 20;
+            font-weight: bold;
+            line-height: 30px;
+            text-align: center;
+	    width: 170px;  /* Fixed width for input and output */
+        }
+
+        .input {
+            border: 2px solid black;
+            
+        }
+
+        .output {
+            background-color: black;
+            color: white;
+            margin-left: 10px;  /* Space between input and output */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+
+    <button onclick="generatePairs()">Generate random patch</button>
+    
+    <div id="output"></div>
+
+    <script>
+        const ins = ["OSC1", "OSC2", "OSC EG", "TRIGGER",
+                     "VELOCITY", "PITCH", "VCF EG", "VCA",
+                     "VCA EG"];
+        const outs = ["OSC1 CV", "OSC2 CV", "OSC DECAY",
+                      "ADV/CLOCK", "TRIGGER", "VELOCITY",
+                      "NOISE LEVEL", "1-2 FMT AMT", "EXT AUDIO",
+                      "TEMPO", "PLAY/STOP", "VCF MOD",
+                      "VCF DECAY", "VCA CV", "VCA DECAY"];
+
+        function generatePairs() {
+            const n = Math.floor(Math.random() * ins.length) + 1;  // Random number of pairs (between 1 and length of `ins`)
+            const randomIns = shuffle([...ins]).slice(0, n);
+            const randomOuts = shuffle([...outs]).slice(0, n);
+
+            const outputDiv = document.getElementById('output');
+            outputDiv.innerHTML = '';  // Clear previous output
+
+            for (let i = 0; i < n; i++) {
+                const pairDiv = document.createElement('div');
+                pairDiv.className = 'pair';
+
+                // Create a div for the input with the black curved outline
+                const inputDiv = document.createElement('div');
+                inputDiv.className = 'input';
+                inputDiv.textContent = randomIns[i];
+
+                // Create a div for the output with black background and white text
+                const outputDivElement = document.createElement('div');
+                outputDivElement.className = 'output';
+                outputDivElement.textContent = randomOuts[i];
+
+                // Append both input and output to the pair div
+                pairDiv.appendChild(inputDiv);
+                pairDiv.appendChild(outputDivElement);
+
+                // Append the pair div to the output div
+                outputDiv.appendChild(pairDiv);
+            }
+        }
+
+        // Shuffle function (Fisher-Yates algorithm)
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+    </script>
+#+end_export
 * notes
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes
