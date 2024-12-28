@@ -6,20 +6,20 @@
     <description>Recent content in Tags on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 18:27:29 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2024 16:33:35 +0100</lastBuildDate>
     <atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behringer-Edge</title>
+      <link>https://giampaolo.guiducci.it/tags/behringer-edge/</link>
+      <pubDate>Sat, 28 Dec 2024 16:33:35 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/tags/behringer-edge/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Life</title>
       <link>https://giampaolo.guiducci.it/tags/life/</link>
       <pubDate>Fri, 27 Dec 2024 18:27:29 +0100</pubDate>
       <guid>https://giampaolo.guiducci.it/tags/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emacs</title>
-      <link>https://giampaolo.guiducci.it/tags/emacs/</link>
-      <pubDate>Wed, 25 Dec 2024 14:58:41 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/emacs/</guid>
       <description></description>
     </item>
   </channel>

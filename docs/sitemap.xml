@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://giampaolo.guiducci.it/notes/2024-12-27-first-note/</loc>
-    <lastmod>2024-12-27T18:27:29+01:00</lastmod>
+    <loc>https://giampaolo.guiducci.it/tags/behringer-edge/</loc>
+    <lastmod>2024-12-28T16:33:35+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/</loc>
+    <lastmod>2024-12-28T16:33:35+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/</loc>
+    <lastmod>2024-12-28T16:33:35+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/2024-12-28-edge-random-patch/</loc>
+    <lastmod>2024-12-28T16:33:35+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/</loc>
+    <lastmod>2024-12-28T16:33:35+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/notes/2024-12-27-first-note/</loc>
     <lastmod>2024-12-27T18:27:29+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/life/</loc>
@@ -13,18 +25,6 @@
   </url><url>
     <loc>https://giampaolo.guiducci.it/notes/</loc>
     <lastmod>2024-12-27T18:27:29+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/</loc>
-    <lastmod>2024-12-27T18:27:29+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/emacs/</loc>
-    <lastmod>2024-12-25T14:58:41+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/2024-12-25-first-post/</loc>
-    <lastmod>2024-12-25T14:58:41+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/</loc>
-    <lastmod>2024-12-25T14:58:41+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/categories/</loc>
   </url><url>
