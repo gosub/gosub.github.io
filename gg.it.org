@@ -76,9 +76,9 @@ giampaolo.guiducci.it
 :EXPORT_DATE: 2024-12-28T16:33:35+01:00
 :END:
 
-Inspired by the video from mylarmelodies where he discuss with Tom Whitwell
+Inspired by the [[https://www.youtube.com/watch?v=lbQn_pRpsL8][video from mylarmelodies]] where he discuss with Tom Whitwell
 about The Music Thing Workshop System.  In that video Tom says that he created a
-random patch generator for the Workshop System, and I wanted to make one too for
+random patch generator for the Workshop System, and I wanted to make one for
 the synth I have, the Behringer Edge.
 
 #+begin_export html
