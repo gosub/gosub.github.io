@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>   Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
+   | Giampaolo Guiducci</title>
+  <link rel = 'canonical' href = 'https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/'>
+  <meta name="description" content="An empty set, by construction.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:url" content="https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/">
+  <meta property="og:site_name" content="Giampaolo Guiducci">
+  <meta property="og:title" content="  Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
+  ">
+  <meta property="og:description" content="I took advantage of the winter holidays to solder and assemble “Der Acapulco” overdrive pedal kit from Musikding.de. The pedal is a clone of the “Acapulco Gold” pedal from EarthQuaker Device, which is itself based on the power section of a vintage Sunn Model T amplifier. The circuit is very simple, it consists of two LM386 op-amps in series and a single large knob to adjust the volume.
+It was my first soldering experience, and I must say that it was not difficult, once you acquired a minimum of soldering technique and found the right combination of solder and soldering iron temperature.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-30T16:40:07+01:00">
+    <meta property="article:modified_time" content="2024-12-30T16:40:07+01:00">
+    <meta property="article:tag" content="Soldering">
+    <meta property="article:tag" content="Pedals">
+    <meta property="article:tag" content="Der-Acapulco">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="  Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
+  ">
+  <meta name="twitter:description" content="I took advantage of the winter holidays to solder and assemble “Der Acapulco” overdrive pedal kit from Musikding.de. The pedal is a clone of the “Acapulco Gold” pedal from EarthQuaker Device, which is itself based on the power section of a vintage Sunn Model T amplifier. The circuit is very simple, it consists of two LM386 op-amps in series and a single large knob to adjust the volume.
+It was my first soldering experience, and I must say that it was not difficult, once you acquired a minimum of soldering technique and found the right combination of solder and soldering iron temperature.">
+
+  
+  
+  
+  <link rel="stylesheet" href="https://giampaolo.guiducci.it/css/styles.94f653e9e151e28067a7c5dbbc4600cbd5a3c721e79faaf971e523c40f3b249b8e4f20bb57810dfffa8d559ca5c140fd56eb4cd9c0853113ad08e66afdb08bdd.css" integrity="sha512-lPZT6eFR4oBnp8XbvEYAy9WjxyHnn6r5ceUjxA87JJuOTyC7V4EN//qNVZylwUD9VutM2cCFMROtCOZq/bCL3Q=="> 
+
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="https://giampaolo.guiducci.it/images/favicon.ico" />
+
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">home</a></li>
+         
+        <li><a href="/posts">posts</a></li>
+         
+        <li><a href="/notes">notes</a></li>
+         
+        <li><a href="/%CE%BClog">μlog</a></li>
+         
+        <li><a href="/tags">tags</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://giampaolo.guiducci.it/posts/2024-12-28-edge-random-patch/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&text=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&title=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&is_video=false&description=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20&body=Check out this article: https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&title=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&title=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&name=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20&description=%3cp%3eI%20took%20advantage%20of%20the%20winter%20holidays%20to%20solder%20and%20assemble%20%26ldquo%3b%3ca%20href%3d%22https%3a%2f%2fwww.musikding.de%2fThe-Acapulco-Overdrive-kit%22%3eDer%20Acapulco%3c%2fa%3e%26rdquo%3b%0aoverdrive%20pedal%20kit%20from%20%3ca%20href%3d%22https%3a%2f%2fwww.musikding.de%2f%22%3eMusikding.de%3c%2fa%3e.%20The%20pedal%20is%20a%20clone%20of%20the%0a%26ldquo%3b%3ca%20href%3d%22https%3a%2f%2fwww.earthquakerdevices.com%2facapulco-gold%22%3eAcapulco%20Gold%3c%2fa%3e%26rdquo%3b%20pedal%20from%20EarthQuaker%20Device%2c%20which%20is%20itself%20based%20on%20the%20power%0asection%20of%20a%20vintage%20Sunn%20Model%20T%20amplifier.%20The%20circuit%20is%20very%20simple%2c%20it%0aconsists%20of%20two%20LM386%20op-amps%20in%20series%20and%20a%20single%20large%20knob%20to%20adjust%20the%0avolume.%3c%2fp%3e%0a%3cp%3eIt%20was%20my%20first%20soldering%20experience%2c%20and%20I%20must%20say%20that%20it%20was%20not%20difficult%2c%0aonce%20you%20acquired%20a%20minimum%20of%20soldering%20technique%20and%20found%20the%20right%0acombination%20of%20solder%20and%20soldering%20iron%20temperature.%3c%2fp%3e" aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&t=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#general-soldering-tips">General soldering tips</a></li>
+    <li><a href="#specific-advice-for-der-acapulco">Specific advice for &ldquo;Der Acapulco&rdquo;</a></li>
+  </ul>
+</nav>
+    </div>
+    
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+          Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
+  
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2024-12-30 16:40:07 &#43;0100 CET" itemprop="datePublished">2024-12-30</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/soldering" rel="tag">soldering</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/pedals" rel="tag">pedals</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/der-acapulco" rel="tag">der-acapulco</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    
+    <div class="content" itemprop="articleBody">
+      <p>I took advantage of the winter holidays to solder and assemble &ldquo;<a href="https://www.musikding.de/The-Acapulco-Overdrive-kit">Der Acapulco</a>&rdquo;
+overdrive pedal kit from <a href="https://www.musikding.de/">Musikding.de</a>. The pedal is a clone of the
+&ldquo;<a href="https://www.earthquakerdevices.com/acapulco-gold">Acapulco Gold</a>&rdquo; pedal from EarthQuaker Device, which is itself based on the power
+section of a vintage Sunn Model T amplifier. The circuit is very simple, it
+consists of two LM386 op-amps in series and a single large knob to adjust the
+volume.</p>
+<p>It was my first soldering experience, and I must say that it was not difficult,
+once you acquired a minimum of soldering technique and found the right
+combination of solder and soldering iron temperature.</p>
+<h2 id="general-soldering-tips">General soldering tips</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=3jAw41LRBxU">This HackMakeMod video</a> is the best soldering tutorial I&rsquo;ve found online</li>
+<li>I was happy with 0.5mm solder wire, 60/40 lead-tin</li>
+<li>Using the video table I set the soldering iron to 370°C</li>
+<li>The best soldering technique I&rsquo;ve found so far is:
+<ol>
+<li>touch the tip of the soldering iron to the metal base of the hole and the leg of the component</li>
+<li>bring the solder wire close to the point where the three elements touch</li>
+<li>let the solder melt for a few seconds (the amount is learned with experience)</li>
+<li>remove the solder wire, leave the soldering iron for a few more seconds</li>
+<li>after the solder has flowed into the hole, remove the iron</li>
+</ol>
+</li>
+</ul>
+<p>At first I had trouble making clean solder joints with the classic inverted cone
+shape, but I was using a solder wire too large, with a melting temperature too
+high and I was keeping the soldering iron at a low temperature. Once these three
+parameters were adjusted, it was much easier to make soldering joints like those
+seen in online tutorials.</p>
+<h2 id="specific-advice-for-der-acapulco">Specific advice for &ldquo;Der Acapulco&rdquo;</h2>
+<p>In the kit, even if the enclosure is included in the order, there is no knob for
+the potentiometer. It must be added separately to the order, otherwise, like me,
+you will be forced to order another pedal kit and an extra knob.</p>
+<p>Like most guitar pedals, the input jack is on the right and the output jack on
+the left. At my first power-on test I thought my pedal didn&rsquo;t work, but I had
+only reversed input and output.</p>
+<p>The footswitch has no direction, you can only mount it on the daughter board
+with the pins aligned horizontally, but you can swap the top with the bottom
+with no consequences.</p>
+<p>When the instructions say that the LED must have the long pin on the right side,
+it means on your right side while looking inside the enclosure. the long pin
+must go in the hole on the board indicated with the +.</p>
+<p>When soldering capacitors, the positive side is indicated on the board with a +,
+while on the capacitors themselves, the negative side is indicated with a light
+band, so the light band must be soldered opposite to the +.</p>
+<p>Resistors do not have a direction, they can be soldered in both directions, as
+well as the ceramic capacitor, the one indicated on the board as C4.</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">home</a></li>
+         
+          <li><a href="/posts">posts</a></li>
+         
+          <li><a href="/notes">notes</a></li>
+         
+          <li><a href="/%CE%BClog">μlog</a></li>
+         
+          <li><a href="/tags">tags</a></li>
+        
+      </ul>
+    </div>
+
+    
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#general-soldering-tips">General soldering tips</a></li>
+    <li><a href="#specific-advice-for-der-acapulco">Specific advice for &ldquo;Der Acapulco&rdquo;</a></li>
+  </ul>
+</nav>
+    </div>
+    
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&text=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&title=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&is_video=false&description=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20&body=Check out this article: https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&title=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&title=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&name=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20&description=%3cp%3eI%20took%20advantage%20of%20the%20winter%20holidays%20to%20solder%20and%20assemble%20%26ldquo%3b%3ca%20href%3d%22https%3a%2f%2fwww.musikding.de%2fThe-Acapulco-Overdrive-kit%22%3eDer%20Acapulco%3c%2fa%3e%26rdquo%3b%0aoverdrive%20pedal%20kit%20from%20%3ca%20href%3d%22https%3a%2f%2fwww.musikding.de%2f%22%3eMusikding.de%3c%2fa%3e.%20The%20pedal%20is%20a%20clone%20of%20the%0a%26ldquo%3b%3ca%20href%3d%22https%3a%2f%2fwww.earthquakerdevices.com%2facapulco-gold%22%3eAcapulco%20Gold%3c%2fa%3e%26rdquo%3b%20pedal%20from%20EarthQuaker%20Device%2c%20which%20is%20itself%20based%20on%20the%20power%0asection%20of%20a%20vintage%20Sunn%20Model%20T%20amplifier.%20The%20circuit%20is%20very%20simple%2c%20it%0aconsists%20of%20two%20LM386%20op-amps%20in%20series%20and%20a%20single%20large%20knob%20to%20adjust%20the%0avolume.%3c%2fp%3e%0a%3cp%3eIt%20was%20my%20first%20soldering%20experience%2c%20and%20I%20must%20say%20that%20it%20was%20not%20difficult%2c%0aonce%20you%20acquired%20a%20minimum%20of%20soldering%20technique%20and%20found%20the%20right%0acombination%20of%20solder%20and%20soldering%20iron%20temperature.%3c%2fp%3e" aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgiampaolo.guiducci.it%2fposts%2f2024-12-30-soldering-der-acapulco%2f&t=%20%20Soldering%20Musikding%20%22Der%20Acapulco%22%20overdrive%20kit%0a%20%20" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2024  Giampaolo Guiducci 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">home</a></li>
+         
+        <li><a href="/posts">posts</a></li>
+         
+        <li><a href="/notes">notes</a></li>
+         
+        <li><a href="/%CE%BClog">μlog</a></li>
+         
+        <li><a href="/tags">tags</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+<script src=/js/code-copy.js></script>
+
+
+
+
+</html>
