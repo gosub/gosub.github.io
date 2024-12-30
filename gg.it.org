@@ -70,6 +70,65 @@ weight = 5
 giampaolo.guiducci.it
 #+end_src
 * posts
+** Soldering Musikding "Der Acapulco" overdrive kit :soldering:pedals:der_acapulco:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-12-30-soldering-der-acapulco
+:EXPORT_DATE: 2024-12-30T16:40:07+01:00
+:END:
+
+I took advantage of the winter holidays to solder and assemble "[[https://www.musikding.de/The-Acapulco-Overdrive-kit][Der Acapulco]]"
+ overdrive pedal kit from [[https://www.musikding.de/][Musikding.de]]. The pedal is a clone of the
+"[[https://www.earthquakerdevices.com/acapulco-gold][Acapulco Gold]]" pedal from EarthQuaker Device, which is itself based on the power
+section of a vintage Sunn Model T amplifier. The circuit is very simple, it
+consists of two LM386 op-amps in series and a single large knob to adjust the
+volume.
+
+It was my first soldering experience, and I must say that it was not difficult,
+once you acquired a minimum of soldering technique and found the right
+combination of solder and soldering iron temperature.
+
+*** General soldering tips
+
+- [[https://www.youtube.com/watch?v=3jAw41LRBxU][This HackMakeMod video]] is the best soldering tutorial I've found online
+- I was happy with 0.5mm solder wire, 60/40 lead-tin
+- Using the video table I set the soldering iron to 370°C
+- The best soldering technique I've found so far is:
+  1) touch the tip of the soldering iron to the metal base of the hole and the leg of the component
+  2) bring the solder wire close to the point where the three elements touch
+  3) let the solder melt for a few seconds (the amount is learned with experience)
+  4) remove the solder wire, leave the soldering iron for a few more seconds
+  5) after the solder has flowed into the hole, remove the iron
+
+At first I had trouble making clean solder joints with the classic inverted cone
+shape, but I was using a solder wire too large, with a melting temperature too
+high and I was keeping the soldering iron at a low temperature. Once these three
+parameters were adjusted, it was much easier to make soldering joints like those
+seen in online tutorials.
+
+*** Specific advice for "Der Acapulco"
+
+In the kit, even if the enclosure is included in the order, there is no knob for
+the potentiometer. It must be added separately to the order, otherwise, like me,
+you will be forced to order another pedal kit and an extra knob.
+
+Like most guitar pedals, the input jack is on the right and the output jack on
+the left. At my first power-on test I thought my pedal didn't work, but I had
+only reversed input and output.
+
+The footswitch has no direction, you can only mount it on the daughter board
+with the pins aligned horizontally, but you can swap the top with the bottom
+with no consequences.
+
+When the instructions say that the LED must have the long pin on the right side,
+it means on your right side while looking inside the enclosure. the long pin
+must go in the hole on the board indicated with the +.
+
+When soldering capacitors, the positive side is indicated on the board with a +,
+while on the capacitors themselves, the negative side is indicated with a light
+band, so the light band must be soldered opposite to the +.
+
+Resistors do not have a direction, they can be soldered in both directions, as
+well as the ceramic capacitor, the one indicated on the board as C4.
 ** Random patch generator for Behringer Edge :behringer_edge:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-12-28-edge-random-patch
