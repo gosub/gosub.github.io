@@ -188,6 +188,9 @@ First note. This will disappear. soon.
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: μlog
 :END:
+*** She was ambiguous and shocking, like the truth table of logical implication. [2013-01-03]
+*** music : C Major scale = cooking : x. Solve for x. [2013-01-03]
+*** Perhaps, behind every paradox, lies a false dichotomy. [2013-01-03]
 *** I have no audience, and I must scream. [2013-01-03]
 *** This entry intentionally left blank [2013-01-03]
 * refs
