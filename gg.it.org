@@ -70,7 +70,7 @@ weight = 5
 giampaolo.guiducci.it
 #+end_src
 * posts
-** Soldering Musikding "Der Acapulco" overdrive kit :soldering:pedals:der_acapulco:
+** Soldering Musikding "Der Acapulco" overdrive kit :diy:stompbox:der_acapulco:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-12-30-soldering-der-acapulco
 :EXPORT_DATE: 2024-12-30T16:40:07+01:00
