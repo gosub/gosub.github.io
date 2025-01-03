@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Idea on Giampaolo Guiducci</title>
-    <link>http://localhost:1313/tags/idea/</link>
+    <link>https://giampaolo.guiducci.it/tags/idea/</link>
     <description>Recent content in Idea on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 16:10:38 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://giampaolo.guiducci.it/tags/idea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea: Personal Music Player in a smartwatch form factor</title>
-      <link>http://localhost:1313/notes/2025-01-03-pmp-smartwatch-formfactor/</link>
+      <link>https://giampaolo.guiducci.it/notes/2025-01-03-pmp-smartwatch-formfactor/</link>
       <pubDate>Fri, 03 Jan 2025 16:10:38 +0100</pubDate>
-      <guid>http://localhost:1313/notes/2025-01-03-pmp-smartwatch-formfactor/</guid>
+      <guid>https://giampaolo.guiducci.it/notes/2025-01-03-pmp-smartwatch-formfactor/</guid>
       <description>&lt;p&gt;I wish there was a personal music player in a smartwatch form factor. It would&#xA;be a device I could easily take along on a long walk, with uninterrupted music,&#xA;free from notifications, and able to display the song title and artist with just&#xA;a wrist turn.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s what such a device should ideally offer:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Completely offline functionality&lt;/li&gt;&#xA;&lt;li&gt;No smartphone syncing required&lt;/li&gt;&#xA;&lt;li&gt;Local storage of at least 64/128 GB, with SD card expandability&lt;/li&gt;&#xA;&lt;li&gt;Bluetooth connectivity for headphones or speakers&lt;/li&gt;&#xA;&lt;li&gt;A large, low-power screen for easy visibility&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

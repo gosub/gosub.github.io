@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Der-Acapulco on Giampaolo Guiducci</title>
-    <link>http://localhost:1313/tags/der-acapulco/</link>
+    <link>https://giampaolo.guiducci.it/tags/der-acapulco/</link>
     <description>Recent content in Der-Acapulco on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2024 16:40:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/der-acapulco/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://giampaolo.guiducci.it/tags/der-acapulco/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>  Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
   </title>
-      <link>http://localhost:1313/posts/2024-12-30-soldering-der-acapulco/</link>
+      <link>https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/</link>
       <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/2024-12-30-soldering-der-acapulco/</guid>
+      <guid>https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/</guid>
       <description>&lt;p&gt;I took advantage of the winter holidays to solder and assemble &amp;ldquo;&lt;a href=&#34;https://www.musikding.de/The-Acapulco-Overdrive-kit&#34;&gt;Der Acapulco&lt;/a&gt;&amp;rdquo;&#xA;overdrive pedal kit from &lt;a href=&#34;https://www.musikding.de/&#34;&gt;Musikding.de&lt;/a&gt;. The pedal is a clone of the&#xA;&amp;ldquo;&lt;a href=&#34;https://www.earthquakerdevices.com/acapulco-gold&#34;&gt;Acapulco Gold&lt;/a&gt;&amp;rdquo; pedal from EarthQuaker Device, which is itself based on the power&#xA;section of a vintage Sunn Model T amplifier. The circuit is very simple, it&#xA;consists of two LM386 op-amps in series and a single large knob to adjust the&#xA;volume.&lt;/p&gt;&#xA;&lt;p&gt;It was my first soldering experience, and I must say that it was not difficult,&#xA;once you acquired a minimum of soldering technique and found the right&#xA;combination of solder and soldering iron temperature.&lt;/p&gt;</description>
     </item>
   </channel>
