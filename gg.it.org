@@ -235,12 +235,24 @@ the synth I have, the Behringer Edge.
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes
 :END:
-** first note :life:
+** Idea: Personal Music Player in a smartwatch form factor :idea:
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2024-12-27-first-note
-:EXPORT_DATE: 2024-12-27T18:27:29+01:00
+:EXPORT_FILE_NAME: 2025-01-03-pmp-smartwatch-formfactor
+:EXPORT_DATE: 2025-01-03T16:10:38+01:00
 :END:
-First note. This will disappear. soon.
+
+I wish there was a personal music player in a smartwatch form factor. It would
+be a device I could easily take along on a long walk, with uninterrupted music,
+free from notifications, and able to display the song title and artist with just
+a wrist turn.
+
+Here's what such a device should ideally offer:
+- Completely offline functionality
+- No smartphone syncing required
+- Local storage of at least 64/128 GB, with SD card expandability
+- Bluetooth connectivity for headphones or speakers
+- A large, low-power screen for easy visibility
+
 * pages
 ** microlog
 :PROPERTIES:
