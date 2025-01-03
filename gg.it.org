@@ -259,6 +259,8 @@ Here's what such a device should ideally offer:
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: μlog
 :END:
+*** A world where, what Aaron Swartz did to JSTOR, is neither illegal nor immoral. [2013-01-12]
+*** I am tempted by Integralism, which opposes Derivative thinking. [2013-01-05]
 *** She was ambiguous and shocking, like the truth table of logical implication. [2013-01-03]
 *** music : C Major scale = cooking : x. Solve for x. [2013-01-03]
 *** Perhaps, behind every paradox, lies a false dichotomy. [2013-01-03]
