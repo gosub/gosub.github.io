@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Giampaolo Guiducci</title>
-    <link>https://giampaolo.guiducci.it/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Dec 2024 16:40:07 +0100</lastBuildDate>
-    <atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 16:10:38 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Idea</title>
+      <link>http://localhost:1313/tags/idea/</link>
+      <pubDate>Fri, 03 Jan 2025 16:10:38 +0100</pubDate>
+      <guid>http://localhost:1313/tags/idea/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Der-Acapulco</title>
-      <link>https://giampaolo.guiducci.it/tags/der-acapulco/</link>
+      <link>http://localhost:1313/tags/der-acapulco/</link>
       <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/der-acapulco/</guid>
+      <guid>http://localhost:1313/tags/der-acapulco/</guid>
       <description></description>
     </item>
     <item>
-      <title>Pedals</title>
-      <link>https://giampaolo.guiducci.it/tags/pedals/</link>
+      <title>Diy</title>
+      <link>http://localhost:1313/tags/diy/</link>
       <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/pedals/</guid>
+      <guid>http://localhost:1313/tags/diy/</guid>
       <description></description>
     </item>
     <item>
-      <title>Soldering</title>
-      <link>https://giampaolo.guiducci.it/tags/soldering/</link>
+      <title>Stompbox</title>
+      <link>http://localhost:1313/tags/stompbox/</link>
       <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/soldering/</guid>
+      <guid>http://localhost:1313/tags/stompbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Behringer-Edge</title>
-      <link>https://giampaolo.guiducci.it/tags/behringer-edge/</link>
+      <link>http://localhost:1313/tags/behringer-edge/</link>
       <pubDate>Sat, 28 Dec 2024 16:33:35 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/behringer-edge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Life</title>
-      <link>https://giampaolo.guiducci.it/tags/life/</link>
-      <pubDate>Fri, 27 Dec 2024 18:27:29 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/life/</guid>
+      <guid>http://localhost:1313/tags/behringer-edge/</guid>
       <description></description>
     </item>
   </channel>
