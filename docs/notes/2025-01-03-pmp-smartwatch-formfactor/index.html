@@ -25,7 +25,7 @@ Completely offline functionality No smartphone syncing required Local storage of
     <meta property="article:section" content="notes">
     <meta property="article:published_time" content="2025-01-03T16:10:38+01:00">
     <meta property="article:modified_time" content="2025-01-03T16:10:38+01:00">
-    <meta property="article:tag" content="Idea">
+    <meta property="article:tag" content="idea">
 
   
   <meta name="twitter:card" content="summary">
@@ -58,43 +58,150 @@ Completely offline functionality No smartphone syncing required Local storage of
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://giampaolo.guiducci.it/">
-  
-    <div id="logo" style="background-image: url(https://giampaolo.guiducci.it/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Giampaolo Guiducci</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="/">home</a></li>
-      
+         
         <li><a href="/posts">posts</a></li>
-      
+         
         <li><a href="/notes">notes</a></li>
-      
+         
         <li><a href="/%CE%BClog">μlog</a></li>
-      
+         
         <li><a href="/tags">tags</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
-    
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
+      <ul>
   
-    <p>I wish there was a personal music player in a smartwatch form factor. It would
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&text=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&title=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&is_video=false&description=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor&body=Check out this article: https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&title=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&title=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&name=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor&description=%3cp%3eI%20wish%20there%20was%20a%20personal%20music%20player%20in%20a%20smartwatch%20form%20factor.%20It%20would%0abe%20a%20device%20I%20could%20easily%20take%20along%20on%20a%20long%20walk%2c%20with%20uninterrupted%20music%2c%0afree%20from%20notifications%2c%20and%20able%20to%20display%20the%20song%20title%20and%20artist%20with%20just%0aa%20wrist%20turn.%3c%2fp%3e%0a%3cp%3eHere%26rsquo%3bs%20what%20such%20a%20device%20should%20ideally%20offer%3a%3c%2fp%3e%0a%3cul%3e%0a%3cli%3eCompletely%20offline%20functionality%3c%2fli%3e%0a%3cli%3eNo%20smartphone%20syncing%20required%3c%2fli%3e%0a%3cli%3eLocal%20storage%20of%20at%20least%2064%2f128%20GB%2c%20with%20SD%20card%20expandability%3c%2fli%3e%0a%3cli%3eBluetooth%20connectivity%20for%20headphones%20or%20speakers%3c%2fli%3e%0a%3cli%3eA%20large%2c%20low-power%20screen%20for%20easy%20visibility%3c%2fli%3e%0a%3c%2ful%3e" aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&t=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+    
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Idea: Personal Music Player in a smartwatch form factor
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2025-01-03 16:10:38 &#43;0100 CET" itemprop="datePublished">2025-01-03</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/idea" rel="tag">idea</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    
+    <div class="content" itemprop="articleBody">
+      <p>I wish there was a personal music player in a smartwatch form factor. It would
 be a device I could easily take along on a long walk, with uninterrupted music,
 free from notifications, and able to display the song title and artist with just
 a wrist turn.</p>
@@ -107,12 +214,118 @@ a wrist turn.</p>
 <li>A large, low-power screen for easy visibility</li>
 </ul>
 
+    </div>
+  </article>
+
   
+  
+
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">home</a></li>
+         
+          <li><a href="/posts">posts</a></li>
+         
+          <li><a href="/notes">notes</a></li>
+         
+          <li><a href="/%CE%BClog">μlog</a></li>
+         
+          <li><a href="/tags">tags</a></li>
+        
+      </ul>
+    </div>
+
+    
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+    
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&text=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&title=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&is_video=false&description=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor&body=Check out this article: https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&title=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&title=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&name=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor&description=%3cp%3eI%20wish%20there%20was%20a%20personal%20music%20player%20in%20a%20smartwatch%20form%20factor.%20It%20would%0abe%20a%20device%20I%20could%20easily%20take%20along%20on%20a%20long%20walk%2c%20with%20uninterrupted%20music%2c%0afree%20from%20notifications%2c%20and%20able%20to%20display%20the%20song%20title%20and%20artist%20with%20just%0aa%20wrist%20turn.%3c%2fp%3e%0a%3cp%3eHere%26rsquo%3bs%20what%20such%20a%20device%20should%20ideally%20offer%3a%3c%2fp%3e%0a%3cul%3e%0a%3cli%3eCompletely%20offline%20functionality%3c%2fli%3e%0a%3cli%3eNo%20smartphone%20syncing%20required%3c%2fli%3e%0a%3cli%3eLocal%20storage%20of%20at%20least%2064%2f128%20GB%2c%20with%20SD%20card%20expandability%3c%2fli%3e%0a%3cli%3eBluetooth%20connectivity%20for%20headphones%20or%20speakers%3c%2fli%3e%0a%3cli%3eA%20large%2c%20low-power%20screen%20for%20easy%20visibility%3c%2fli%3e%0a%3c%2ful%3e" aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgiampaolo.guiducci.it%2fnotes%2f2025-01-03-pmp-smartwatch-formfactor%2f&t=Idea%3a%20Personal%20Music%20Player%20in%20a%20smartwatch%20form%20factor" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2025  Giampaolo Guiducci 
   </div>
@@ -142,4 +355,10 @@ a wrist turn.</p>
 <link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
 <script src=/lib/jquery/jquery.min.js></script>
 <script src=/js/main.js></script>
+
+<script src=/js/code-copy.js></script>
+
+
+
+
 </html>
