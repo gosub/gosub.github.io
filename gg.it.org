@@ -260,6 +260,7 @@ Here's what such a device should ideally offer:
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: μlog
 :END:
+*** To love the internet and hate the web [2013-06-15]
 *** Neighborhoods that smell like car air freshener [2013-06-15]
 *** A contact list that is not changing anymore [2013-04-05]
 *** From the street, you can see the ceilings of other people's rooms [2013-03-05]
