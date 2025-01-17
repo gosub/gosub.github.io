@@ -260,6 +260,7 @@ Here's what such a device should ideally offer:
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: μlog
 :END:
+*** A file-changing experience [2013-07-28]
 *** Questions, without any mention of frequency of asking. [2013-07-14]
 *** To love the internet and hate the web [2013-06-15]
 *** Neighborhoods that smell like car air freshener [2013-06-15]
