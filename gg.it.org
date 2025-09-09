@@ -283,5 +283,10 @@ Here's what such a device should ideally offer:
 * help
 ** Tangle file from this org
 C-c C-v t (org-bable-tangle)
+only do it if tangled files are modified
 ** Babel export all to hugo markdown
 C-c C-e H A (org-hugo-export-wim-to-md :all-subtrees)
+do it when hugo content is changed
+** Rebuild website
+M-x compile -> make build
+always do it after tangle or babel export
