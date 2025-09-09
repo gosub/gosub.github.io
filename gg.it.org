@@ -280,3 +280,8 @@ Here's what such a device should ideally offer:
 - [[https://gohugo.io/documentation/][hugo]]
 - [[https://ox-hugo.scripter.co/][ox-hugo]]
 - [[https://github.com/monkeyWzr/hugo-theme-cactus][cactus theme]]
+* help
+** Tangle file from this org
+C-c C-v t (org-bable-tangle)
+** Babel export all to hugo markdown
+C-c C-e H A (org-hugo-export-wim-to-md :all-subtrees)
