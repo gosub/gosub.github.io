@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>carnival on Giampaolo Guiducci</title>
+    <link>https://giampaolo.guiducci.it/tags/carnival/</link>
+    <description>Recent content in carnival on Giampaolo Guiducci</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Dec 2025 21:34:52 +0100</lastBuildDate>
+    <atom:link href="https://giampaolo.guiducci.it/tags/carnival/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The People of Emacs are my tribe</title>
+      <link>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</link>
+      <pubDate>Tue, 02 Dec 2025 21:34:52 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</guid>
+      <description>&lt;p&gt;The People of Emacs are my tribe, even if I never met anyone of them in person.&#xA;They are my tribe because I believe that sharing matters, and I feel that they&#xA;do too. I&amp;rsquo;ve been able to use and enjoy Emacs all these years because of their&#xA;generosity, and I hope one day to pay them back.&lt;/p&gt;&#xA;&lt;p&gt;The People of Emacs have been my tribe since I first watched the video lectures&#xA;for &lt;a href=&#34;https://www.youtube.com/playlist?list=PLE18841CABEA24090&#34;&gt;MIT 6.001 Structure and Intepretation of Computer Programs&lt;/a&gt;, and what I saw&#xA;expressed something I had always felt subconsciously, but had never been able to&#xA;articulate: that computer use and computer programming were fundamentally the&#xA;same activity; that coding was closer to casting spells than to doing&#xA;engineering; and that Lisp was the arcane language of choice for spellbinding&#xA;the computer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
