@@ -66,6 +66,39 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** The People of Emacs are my tribe :emacs:carnival:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2025-12-02-emacs-people-are-my-tribe
+:EXPORT_DATE: 2025-12-02T21:34:52+01:00
+:END:
+
+The People of Emacs are my tribe, even if I never met anyone of them in person.
+They are my tribe because I believe that sharing matters, and I feel that they
+do too. I've been able to use and enjoy Emacs all these years because of their
+generosity, and I hope one day to pay them back.
+
+The People of Emacs have been my tribe since I first watched the video lectures
+for [[https://www.youtube.com/playlist?list=PLE18841CABEA24090][MIT 6.001 Structure and Intepretation of Computer Programs]], and what I saw
+expressed something I had always felt subconsciously, but had never been able to
+articulate: that computer use and computer programming were fundamentally the
+same activity; that coding was closer to casting spells than to doing
+engineering; and that Lisp was the arcane language of choice for spellbinding
+the computer.
+
+The People of Emacs are my tribe because the tool that they have created
+reflects many of the principles I hold about software. Some of those priciples
+are:
+
+- Software should be free, as in freedom
+- Sotware should be programmable, and in the same language it is written in
+- [[https://peps.python.org/pep-0020/][Explicit is better than implicit]]
+- Plain text always wins in the long term
+- [[https://www.cs.yale.edu/homes/perlis-alan/quotes.html][It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures]] (and that data structure is the cons cell)
+
+The People of Emacs are my tribe, and [[https://fosstodon.org/@gosub/115599166682104187][I hope to meet some of them soon]].
+
+This post is my entry for [[https://www.emacswiki.org/emacs/Carnival][Emacs Carnival]] for [[https://curious.port111.com/2025/11/01/emacs-carnival-december-the-people.html][December 2025]].
+
 ** Idea: Personal Music Player in a smartwatch form factor :idea:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2025-01-03-pmp-smartwatch-formfactor
