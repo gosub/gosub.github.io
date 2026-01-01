@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://giampaolo.guiducci.it/</loc>
+    <lastmod>2026-01-01T19:01:21+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
+    <lastmod>2026-01-01T19:01:21+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/2026-01-01-mixpost-2026w1/</loc>
+    <lastmod>2026-01-01T19:01:21+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/</loc>
+    <lastmod>2026-01-01T19:01:21+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/</loc>
+    <lastmod>2026-01-01T19:01:21+01:00</lastmod>
+  </url><url>
     <loc>https://giampaolo.guiducci.it/tags/carnival/</loc>
     <lastmod>2025-12-02T21:34:52+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/emacs/</loc>
-    <lastmod>2025-12-02T21:34:52+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/</loc>
-    <lastmod>2025-12-02T21:34:52+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/</loc>
-    <lastmod>2025-12-02T21:34:52+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/</loc>
     <lastmod>2025-12-02T21:34:52+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</loc>
