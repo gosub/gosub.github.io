@@ -66,6 +66,18 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** mixpost 2026W1 :mixpost:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-01-01-mixpost-2026W1
+:EXPORT_DATE: 2026-01-01T19:01:21+01:00
+:END:
+
+1. [[https://www.youtube.com/watch?v=QZkgByta4Kg][Doomwork - Winning The War On Error]]
+2. [[https://www.youtube.com/watch?v=jmvCwjzpfuk][Lola Young - Spiders]]
+3. [[https://www.youtube.com/watch?v=yf5Yp2WjQ5M][Endeless Dive - Above the Trees]]
+4. [[https://www.youtube.com/watch?v=jTv8-DWWW3I][Explosions in the Sky - Moving On]]
+5. [[https://www.youtube.com/watch?v=pgCBxvt1I18][AFX - Where's Your Girlfriend?]]
+
 ** The People of Emacs are my tribe :emacs:carnival:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2025-12-02-emacs-people-are-my-tribe
