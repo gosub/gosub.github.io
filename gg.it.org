@@ -66,9 +66,9 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
-** mixpost 2026W1 :mixpost:
+** mixpost 2026W01 :mixpost:
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2026-01-01-mixpost-2026W1
+:EXPORT_FILE_NAME: 2026-01-01-mixpost-2026W01
 :EXPORT_DATE: 2026-01-01T19:01:21+01:00
 :END:
 
