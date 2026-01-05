@@ -66,7 +66,7 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
-** The many faces of the XOR operation
+** TODO The many faces of the XOR operation
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-01-05-many-faces-of-xor
 :EXPORT_DATE: 2026-01-05T18:45:20+01:00
