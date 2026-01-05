@@ -66,6 +66,21 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** The many faces of the XOR operation
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-01-05-many-faces-of-xor
+:EXPORT_DATE: 2026-01-05T18:45:20+01:00
+:END:
+
+Since I have learned about it, I always felt a strange fascination about the XOR
+operation. I think that I was taught about it by my father, who cultivated my
+interest in computers and taught me programming when I was 7. I remember that
+the AND and OR operation where clear to me, and their use in the logic of a
+program; on the other side XOR seemed esoterical and not really useful, since I
+could easily program the same behaviour with a combination of AND and OR.  As I
+progressed in my programming journey and learned much more, I became aware of
+the strangeness and power of XOR, and this post is me trying to describe how I
+interpret the XOR operation, and some ways it can be seen and used.
 ** mixpost 2026W01 :mixpost:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-01-01-mixpost-2026W01
