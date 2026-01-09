@@ -81,6 +81,47 @@ could easily program the same behaviour with a combination of AND and OR.  As I
 progressed in my programming journey and learned much more, I became aware of
 the strangeness and power of XOR, and this post is me trying to describe how I
 interpret the XOR operation, and some ways it can be seen and used.
+
+*** the boring formal definition
+
+XOR, or /Exclusive Or/, is a binary logical operator that is /True/ when only
+one of its two operands is /True/. It is usually represented with two symbols, ↮
+and ⊕. I prefer ⊕.  Its truth table is:
+
+| A | B | A⊕B |
+|---+---+------|
+| F | F | F    |
+| F | T | T    |
+| T | F | T    |
+| T | T | F    |
+
+*** The basic interpratation: Or, with exclusion
+
+In its first literal interpretation, XOR can be seen as an extension of
+OR. While OR is True when any of its input is True (so it can be the first, the
+second or both), XOR is true only when the first or the second is true, but not
+both.
+
+*** Inequality
+
+XOR, when talking about boolean values, is equivalent to "not equal" ("!=" in
+C). XOR is true only when its two operands are different from each other.
+
+*** Programmable NOT
+
+NOT is the unary logical operation that inverts the truth value of its
+operand. When the input is true, the output is false, and viceversa. XOR could
+be thought as a version of NOT whose inverting behaviours is controllable by the
+second operator. When the second operator is true, the output is the negation of
+the first operator; When the second operator is false, the output is equal to
+the first operator.
+
+*** Addition
+
+If we take the truth table of XOR and substitute T with 1 and F with 0, we can
+see that the XOR operation is equivalent to arithmetic addition (without the
+carry). This make it possible to create an electrical circuit that performs
+arithmetic addition on numbers represented in binary.
 ** mixpost 2026W01 :mixpost:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-01-01-mixpost-2026W01
