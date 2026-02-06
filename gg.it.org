@@ -66,26 +66,26 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
-** TODO The many faces of the XOR operation
+** The many faces of the XOR operation :xor:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-01-05-many-faces-of-xor
 :EXPORT_DATE: 2026-01-05T18:45:20+01:00
 :END:
 
-Since I have learned about it, I always felt a strange fascination about the XOR
-operation. I think that I was taught about it by my father, who cultivated my
-interest in computers and taught me programming when I was 7. I remember that
-the AND and OR operation where clear to me, and their use in the logic of a
-program; on the other side XOR seemed esoterical and not really useful, since I
-could easily program the same behaviour with a combination of AND and OR.  As I
-progressed in my programming journey and learned much more, I became aware of
-the strangeness and power of XOR, and this post is me trying to describe how I
-interpret the XOR operation, and some ways it can be seen and used.
+XOR has always struck me as the odd one among the logical operators; since I
+first learned about it, I always felt a strange fascination with it. I think I
+was taught about it by my father, who cultivated my interest in computers and
+taught me programming when I was 7. I remember that the AND and OR operations
+were clear to me, and their use in the logic of a program; on the other hand,
+XOR seemed esoteric and not really useful, since I could easily program the same
+behavior with a combination of AND and OR.  As I progressed in my programming
+journey and learned much more, I became aware of the strangeness and power of
+XOR. In this post, I explore the many interpretations of XOR, and why it
+deserves a unique appreciation.
 
-*** the boring formal definition
-
+*** The Boring Formal Definition™ (bear with me)
 XOR, or /Exclusive Or/, is a binary logical operator that is /True/ when only
-one of its two operands is /True/. It is usually represented with two symbols, ↮
+one of its two operands is /True/. It is usually represented with two symbols: ↮
 and ⊕. I prefer ⊕.  Its truth table is:
 
 | A | B | A⊕B |
@@ -95,33 +95,68 @@ and ⊕. I prefer ⊕.  Its truth table is:
 | T | F | T    |
 | T | T | F    |
 
-*** The basic interpratation: Or, with exclusion
-
-In its first literal interpretation, XOR can be seen as an extension of
-OR. While OR is True when any of its input is True (so it can be the first, the
-second or both), XOR is true only when the first or the second is true, but not
-both.
+*** The basic interpretation: Or, with exclusion
+In its most literal interpretation, XOR can be seen as an extension of OR. While
+OR is /True/ when either of its operands is /True/ -or when both are- XOR
+excludes this final case.
 
 *** Inequality
+XOR, when applied to boolean values, is equivalent to "not equal" ("!=" in
+C). XOR is /True/ only when its two operands are different from each other. This
+interpretation reveals a profound truth about XOR: it is fundamentally about
+difference. XOR answers the question "are these values the same?" rather than
+"are these values true?".
 
-XOR, when talking about boolean values, is equivalent to "not equal" ("!=" in
-C). XOR is true only when its two operands are different from each other.
+*** Toggle/Flip
+XORing a boolean value with a constant /True/ inverts the value/truthness of the
+value:
+
+A ⊕ /True/ = ¬A
+
+If A is a binary number, this operation flips all the bits of A. We can use this
+to flip select bits in a variable, by setting /True/ the corresponding bits in
+the second operand.
 
 *** Programmable NOT
-
 NOT is the unary logical operation that inverts the truth value of its
-operand. When the input is true, the output is false, and viceversa. XOR could
-be thought as a version of NOT whose inverting behaviours is controllable by the
-second operator. When the second operator is true, the output is the negation of
-the first operator; When the second operator is false, the output is equal to
-the first operator.
+operand. When the input is /True/, the output is /False/, and vice versa. XOR
+could be thought of as a version of NOT whose inverting behavior is controllable
+by a selector bit. When the second operand is /True/, the output is the negation
+of the first operand; When the second operand is /False/, the output remains
+equal to the first operand.
 
 *** Addition
+One of the most elegant uses of XOR is bridging between logic and arithmetic. If
+we take the truth table of XOR and substitute T with 1 and F with 0, we can see
+that the XOR operation is equivalent to arithmetic addition (without the
+carry). This makes it possible to create an electrical circuit that performs
+arithmetic addition on numbers represented in binary. This connection is not
+only theoretical: half-adders are circuits in real CPUs and use XOR gates to
+compute the sum bit, while the AND gate handles the carry.
 
-If we take the truth table of XOR and substitute T with 1 and F with 0, we can
-see that the XOR operation is equivalent to arithmetic addition (without the
-carry). This make it possible to create an electrical circuit that performs
-arithmetic addition on numbers represented in binary.
+*** Reversibility
+XOR is its own self-inverse: $(a ⊕ b) ⊕ b = a$ This unique property means XORing
+with the same value twice returns you to the original. This is profound because
+most operations aren't reversible. This leads directly to some very interesting
+applications: encryption (one-time pad), in-place swapping without temporary
+variables, error correction codes.
+*** Parity/Balance
+XOR counts oddness: it returns True when an odd number of inputs are True. For
+multiple inputs: $a ⊕ b ⊕ c ⊕ d$ tells you if there's an odd number of True
+values. This interpretation is crucial for: parity bits in error detection,
+checksums, RAID systems.
+
+*** Wrapping up
+So there you have it: the many faces of XOR. I'm sure there are interpretations
+of XOR I haven't discovered yet, patterns I haven't recognized. That's part of
+what keeps programming interesting: operations and concepts you thought you
+understood reveal new depths as you gain experience. What seemed like an
+esoteric curiosity when I was learning to program turned out to be a Swiss Army
+knife hiding in plain sight. It's an inequality checker, a toggle switch, a
+half-adder, and a cryptographic building block all at once. My father gave me a
+gift when he introduced me to this strange operator: a gift made of curiosity
+and opportunity to be forever mesmerized by all the weird things that are out
+there, ready to be discovered.
 ** mixpost 2026W01 :mixpost:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-01-01-mixpost-2026W01
