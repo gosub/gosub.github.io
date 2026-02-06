@@ -135,14 +135,14 @@ only theoretical: half-adders are circuits in real CPUs and use XOR gates to
 compute the sum bit, while the AND gate handles the carry.
 
 *** Reversibility
-XOR is its own self-inverse: $(a ⊕ b) ⊕ b = a$ This unique property means XORing
+XOR is its own self-inverse: (a ⊕ b) ⊕ b = a This unique property means XORing
 with the same value twice returns you to the original. This is profound because
 most operations aren't reversible. This leads directly to some very interesting
 applications: encryption (one-time pad), in-place swapping without temporary
 variables, error correction codes.
 *** Parity/Balance
 XOR counts oddness: it returns True when an odd number of inputs are True. For
-multiple inputs: $a ⊕ b ⊕ c ⊕ d$ tells you if there's an odd number of True
+multiple inputs: a ⊕ b ⊕ c ⊕ d tells you if there's an odd number of True
 values. This interpretation is crucial for: parity bits in error detection,
 checksums, RAID systems.
 
