@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xor on Giampaolo Guiducci</title>
+    <link>https://giampaolo.guiducci.it/tags/xor/</link>
+    <description>Recent content in xor on Giampaolo Guiducci</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2026 18:45:20 +0100</lastBuildDate>
+    <atom:link href="https://giampaolo.guiducci.it/tags/xor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The many faces of the XOR operation</title>
+      <link>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</link>
+      <pubDate>Mon, 05 Jan 2026 18:45:20 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</guid>
+      <description>&lt;p&gt;XOR has always struck me as the odd one among the logical operators; since I&#xA;first learned about it, I always felt a strange fascination with it. I think I&#xA;was taught about it by my father, who cultivated my interest in computers and&#xA;taught me programming when I was 7. I remember that the AND and OR operations&#xA;were clear to me, and their use in the logic of a program; on the other hand,&#xA;XOR seemed esoteric and not really useful, since I could easily program the same&#xA;behavior with a combination of AND and OR.  As I progressed in my programming&#xA;journey and learned much more, I became aware of the strangeness and power of&#xA;XOR. In this post, I explore the many interpretations of XOR, and why it&#xA;deserves a unique appreciation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
