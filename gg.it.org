@@ -66,23 +66,36 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
-** TODO All the papers cited in Andrej Karpathy's youtube videos :ai:
+** All the papers cited in Andrej Karpathy's YouTube videos :ai:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-02-09-karpathy-video-papers
 :EXPORT_DATE: 2026-02-09T20:51:32+01:00
 :END:
 
-https://www.youtube.com/@AndrejKarpathy/videos
+I've been following [[https://www.youtube.com/@AndrejKarpathy/videos][Andrej Karpathy's YouTube channel]] for a long time, and he
+made me want to dive deep into AI, Neural Networks and LLMs. His videos are
+interesting, precise and engaging, and they pushed me to read primary sources,
+i.e. papers and articles. I've collected here all the papers that were mentioned
+in the various videos, as a personal reminder to read them all.
+
+Since I've already seen all the videos and didn't want to watch them all again
+just to find the papers, I've downloaded the subtitle with the command below,
+and searched for all the occurrences of the term "paper", then looked at the
+corresponding timestamps.
 
 #+begin_src sh
 yt-dlp --skip-download --write-subs --write-auto-subs --sub-lang en --sub-format ttml --convert-subs srt --output "transcript_%(id)s_%(title)s.%(ext)s" ${URL}
 #+end_src
 
+Here is the list of videos, papers and pdf files:
+
 *** The spelled-out intro to neural networks and backpropagation: building micrograd
 https://www.youtube.com/watch?v=VMj-3S1tku0
+No papers mentioned.
 
 *** The spelled-out intro to language modeling: building makemore
 https://www.youtube.com/watch?v=PaCmpygFfXo
+No papers mentioned.
 
 *** Building makemore Part 2: MLP
 https://www.youtube.com/watch?v=TCH_1BHY58I
