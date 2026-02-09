@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ai on Giampaolo Guiducci</title>
+    <link>https://giampaolo.guiducci.it/tags/ai/</link>
+    <description>Recent content in ai on Giampaolo Guiducci</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Feb 2026 20:51:32 +0100</lastBuildDate>
+    <atom:link href="https://giampaolo.guiducci.it/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the papers cited in Andrej Karpathy&#39;s YouTube videos</title>
+      <link>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</link>
+      <pubDate>Mon, 09 Feb 2026 20:51:32 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been following &lt;a href=&#34;https://www.youtube.com/@AndrejKarpathy/videos&#34;&gt;Andrej Karpathy&amp;rsquo;s YouTube channel&lt;/a&gt; for a long time, and he&#xA;made me want to dive deep into AI, Neural Networks and LLMs. His videos are&#xA;interesting, precise and engaging, and they pushed me to read primary sources,&#xA;i.e. papers and articles. I&amp;rsquo;ve collected here all the papers that were mentioned&#xA;in the various videos, as a personal reminder to read them all.&lt;/p&gt;&#xA;&lt;p&gt;Since I&amp;rsquo;ve already seen all the videos and didn&amp;rsquo;t want to watch them all again&#xA;just to find the papers, I&amp;rsquo;ve downloaded the subtitle with the command below,&#xA;and searched for all the occurrences of the term &amp;ldquo;paper&amp;rdquo;, then looked at the&#xA;corresponding timestamps.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
