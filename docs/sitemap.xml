@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://giampaolo.guiducci.it/</loc>
+    <lastmod>2026-02-16T20:33:27+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
+    <lastmod>2026-02-16T20:33:27+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</loc>
+    <lastmod>2026-02-16T20:33:27+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/</loc>
+    <lastmod>2026-02-16T20:33:27+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/</loc>
+    <lastmod>2026-02-16T20:33:27+01:00</lastmod>
+  </url><url>
     <loc>https://giampaolo.guiducci.it/tags/ai/</loc>
     <lastmod>2026-02-09T20:51:32+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</loc>
-    <lastmod>2026-02-09T20:51:32+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/</loc>
-    <lastmod>2026-02-09T20:51:32+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/</loc>
-    <lastmod>2026-02-09T20:51:32+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/</loc>
     <lastmod>2026-02-09T20:51:32+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/programming/</loc>
@@ -25,9 +31,6 @@
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/xor/</loc>
     <lastmod>2026-01-05T18:45:20+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
-    <lastmod>2026-01-01T19:01:21+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2026-01-01-mixpost-2026w01/</loc>
     <lastmod>2026-01-01T19:01:21+01:00</lastmod>
