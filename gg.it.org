@@ -66,6 +66,22 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** mixpost 2026W08 :mixpost:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-02-16-mixpost-2026W08
+:EXPORT_DATE: 2026-02-16T20:33:27+01:00
+:END:
+
+1. [[https://www.youtube.com/watch?v=yPt3-lB5Lsc][Joy Division - Shadowplay]]
+2. [[https://www.youtube.com/watch?v=neglkknTYB4][James Blake - Death of Love (Live)]]
+3. [[https://www.youtube.com/watch?v=fV8bKLHKLYI][Joji - Last of a Dying Breed / Dior]]
+4. [[https://www.youtube.com/watch?v=PUf9_1jsCyY][Russian Circles - Gnosis]]
+5. [[https://www.youtube.com/watch?v=c5kM3iwYVi0][LCD Soundsystem - New York I Love You, But You're Bringing Me Down]]
+6. [[https://www.youtube.com/watch?v=t3ObX0H7-Xc][Mei Semones - Inaka]]
+7. [[https://www.youtube.com/watch?v=Id-ZDSp1Cro][Flea - Thinkin 'Bout You]]
+8. [[https://www.youtube.com/watch?v=uc5NSUrnF70][Fred Again... & Jamie T - Lights Burn Dimmer]]
+9. [[https://www.youtube.com/watch?v=Hq2y9iAaHC4][little image - KILL THE GHOST]]
+
 ** All the papers cited in Andrej Karpathy's YouTube videos :ai:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-02-09-karpathy-video-papers
