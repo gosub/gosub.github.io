@@ -15,6 +15,7 @@
     mainSection = "posts"
     mainSections = ["posts"]
     mainSectionTitle = "posts"
+    showAllPostsOnHomePage = true
     <<socials>>
 
   <<menu>>
@@ -66,6 +67,67 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** Against Programs That Violate Your $HOME :linux:home:pamphlet:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-02-25-against-programs-that-violate-your-home
+:EXPORT_DATE: 2026-02-25T11:27:00+01:00
+:END:
+
+I think of my home folder as a physical space. A room where I keep the stuff I
+care about. There is a class of programs that enter this room without knocking
+on the door and think that dumping their dirty laundry on my floor is perfectly
+fine.
+
+Watching my space being polluted by applications that carelessly scatter their
+dotfiles and directories everywhere, when a well-known standard (XDG) and
+dedicated subfolders exist for exactly this purpose (=.cache=, =.config=,
+=.local=, and so on), feels like a violation of my personal space.
+
+And even when an application provides an environment variable I can set to make
+it behave correctly, having to go hunting for it and then clutter my rc files
+with workarounds still feels disrespectful; a blatant lack of care for my
+time. In fact, it's even worse: it tells me the developers /knew/ it was the
+wrong thing to do, went as far as adding an option to fix it, but couldn't be
+bothered to do the right thing by default.
+
+*** Wall of Shame
+
+Here is a list of programs and folders in my home directory that are squatting in it. Shame on them.
+
+| Program | Offending directory |
+|---------+---------------------|
+| NSS     | =~/.pki=            |
+| Claude  | =~/.claude=         |
+| GnuPG   | =~/.gnupg=          |
+| Ollama  | =~/.ollama=         |
+| Go      | =~/go=              |
+| Firefox | =~/.mozilla=        |
+
+*** My Workaround
+
+I have come to the conclusion that I need a "real" home. For a while I thought I
+could solve it technically: use an overlay filesystem over my home, run programs
+with different users... In the end I chose the low-tech version: a subdirectory
+(two, to be precise).
+
+I now have =~/box=, which is my True Home™, and =~/dl=, where I dump downloads
+and temporary files that I want to survive a reboot. They were chosen following
+a couple of principles:
+
+- Easy to remember.
+- Short names, to avoid lengthening paths too much.
+- Must start with different letters, for fast tab completion.
+
+*** Conclusion
+
+Every self-respecting blog post should have its call to action, so here's mine:
+
+*If you're a developer, please: respect your users' =$HOME=.*
+
+You can show that you care and read the [[https://specifications.freedesktop.org/basedir/latest/][XDG Base Directory Specification]], it's
+short. My solution is not a perfect one; my home directory is still a mess of
+uninvited guests. But at least now I have a corner of it that is truly mine.
+
 ** mixpost 2026W08 :mixpost:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-02-16-mixpost-2026W08
