@@ -6,8 +6,15 @@
     <description>Recent content in posts on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Feb 2026 20:33:27 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 11:27:00 +0100</lastBuildDate>
     <atom:link href="https://giampaolo.guiducci.it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Against Programs That Violate Your $HOME</title>
+      <link>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</link>
+      <pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</guid>
+      <description>&lt;p&gt;I think of my home folder as a physical space. A room where I keep the stuff I&#xA;care about. There is a class of programs that enter this room without knocking&#xA;on the door and think that dumping their dirty laundry on my floor is perfectly&#xA;fine.&lt;/p&gt;&#xA;&lt;p&gt;Watching my space being polluted by applications that carelessly scatter their&#xA;dotfiles and directories everywhere, when a well-known standard (XDG) and&#xA;dedicated subfolders exist for exactly this purpose (&lt;code&gt;.cache&lt;/code&gt;, &lt;code&gt;.config&lt;/code&gt;,&#xA;&lt;code&gt;.local&lt;/code&gt;, and so on), feels like a violation of my personal space.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>mixpost 2026W08</title>
       <link>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</link>
