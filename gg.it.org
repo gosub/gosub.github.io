@@ -68,6 +68,11 @@ giampaolo.guiducci.it
 #+end_src
 * posts
 ** A mareal is a collection of tides :livecoding:tidalcycles:haskell:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-03-04-a-mareal-is-a-collection-of-tides
+:EXPORT_DATE: 2026-03-04T17:58:02+01:00
+:END:
+
 Many moons ago I was really into live-coding, the practice of creating
 electronic music in real time with a programming language. I never performed, but
 I played extensively with many live-coding tools: Csound, SuperCollider and my
