@@ -103,6 +103,8 @@ This post is a collection and recollection of that body of work.
 published on: 2019-06-18
 tidalcycles version: 1.0.13
 
+My first marea, and the one I'm most fond of. I remember the wonder I felt after writing it, not expecting this result at all. The syncopated vocal cut-up technique always has a strong emotional effect on me.
+
 #+begin_src haskell
 d1 $ jux (chop 2 . (# cut 2))
    $ sound "bev*<2 4 6 8>"
@@ -117,6 +119,8 @@ d1 $ jux (chop 2 . (# cut 2))
 
 published on: 2019-06-19
 tidalcycles version: 1.0.13
+
+The inspiration for this piece came from the chiptune genre and the video game soundtracks of my childhood. It makes me think of a level in an action game, with a horde of enemies closing in.
 
 #+begin_src haskell
 d1 $ stack [
@@ -140,6 +144,8 @@ d1 $ stack [
 published on: 2019-06-20
 tidalcycles version: 1.0.13
 
+I can hear the influences of ambient music and the X-Files soundtrack. I particularly like the grittiness introduced by the audio glitch in the delay effect's feedback.
+
 #+begin_src haskell
 d1 $ off 0.5 (
   (fast 2)
@@ -160,6 +166,8 @@ d1 $ off 0.5 (
 
 published on: 2019-06-21
 tidalcycles version: 1.0.13
+
+Industrial sounds in an alien forest. Nine Inch Nails meeting an alien abduction.
 
 #+begin_src haskell
 d1 $ every 8 (juxBy 0.3 (rev)) $ stack [
@@ -184,6 +192,8 @@ d1 $ every 8 (juxBy 0.3 (rev)) $ stack [
 
 published on: 2019-06-23
 tidalcycles version: 1.0.13
+
+I remember I was driving my car. The road followed the outer walls of my city, and the light of the sunset filtered through the treetops. "Such Great Heights" by The Postal Service was playing on the radio.
 
 #+begin_src haskell
 d1 $ stack [
