@@ -67,6 +67,46 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** A mareal is a collection of tides :livecoding:tidalcycles:haskell:
+Many moons ago I was really into live-coding, the practice of creating
+electronic music in realtime with a programming language. I never perfomed, but
+I played extensively with many live-coding tools: Csound, SuperCollider and my
+favourite, Tidal Cycles (aka Tidal).
+
+Tidal Cycles is a Haskell library that can be used in a text editor or a REPL to
+create musical patterns, that are then rendered to audio with SuperCollider. I
+was struck by the beauty of it: leveraging functional programming to create
+music while /composing/ functions.
+
+I have to tell you the truth, setting up Tidal Cycles was half a nightmare: it
+had many moving parts (Haskell, Cabal, SuperCollider, Quarks...) and they are
+all an update away from not working anymore together. Today we have it easy,
+[[https://strudel.cc][strudel.cc]] is Tidal Cycles reimagined for Javascript and the modern web, so it
+always online and always available. But Javascript is not Haskell, and I miss
+the pure geometry of its original abstractions.
+
+While playing with Tidal Cycles in the summer of 2019 I published a collection
+of code/music snippets that I called *maree* (/marea/ is tide in Italian). They
+are small fragments of noise, abstract electronics snaphots, little musical
+footnotes. I pushed the code to a [[https://github.com/gosub/maree][github repo]], and made for each of them a
+screenshot+audio for [[https://www.instagram.com/sottoforma/][instagram]].
+
+This post a collection and recollection of that body of work.
+
+*** Marea n.1
+
+published on: 2019-06-18
+tidalcycles version: 1.0.13
+
+#+begin_src haskell
+d1 $ jux (chop 2 . (# cut 2))
+   $ sound "bev*<2 4 6 8>"
+   # cut 1
+   # begin (slow 16 $
+            range 0 0.5 rand)
+#+end_src
+
+#+hugo: {{< instagram By27P7GIhEl >}}
 ** Against Programs That Violate Your $HOME :linux:home:pamphlet:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-02-25-against-programs-that-violate-your-home
