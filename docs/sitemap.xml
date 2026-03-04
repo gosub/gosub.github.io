@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</loc>
-    <lastmod>2026-02-25T11:27:00+01:00</lastmod>
+    <loc>https://giampaolo.guiducci.it/posts/2026-03-04-a-mareal-is-a-collection-of-tides/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/haskell/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/livecoding/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/tidalcycles/</loc>
+    <lastmod>2026-03-04T17:58:02+01:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</loc>
     <lastmod>2026-02-25T11:27:00+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/home/</loc>
@@ -15,12 +33,6 @@
     <lastmod>2026-02-25T11:27:00+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/pamphlet/</loc>
-    <lastmod>2026-02-25T11:27:00+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/</loc>
-    <lastmod>2026-02-25T11:27:00+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/</loc>
     <lastmod>2026-02-25T11:27:00+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
