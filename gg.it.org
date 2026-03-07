@@ -545,6 +545,8 @@ p "marea16" $ stack [
 published on: 2019-07-09
 tidalcycles version: 1.0.14
 
+Things are strange. Things can get stranger.
+
 #+begin_src haskell
 p "marea17" $ every 7 (jux rev)
   $ stack [
@@ -571,6 +573,8 @@ p "marea17" $ every 7 (jux rev)
 
 published on: 2019-07-10
 tidalcycles version: 1.0.14
+
+Listening to it after so long, it feels like floating. Drifting high above things, tiny and far below.
 
 #+begin_src haskell
 p "marea18" $ stack [
@@ -601,6 +605,8 @@ p "marea18" $ stack [
 published on: 2019-07-11
 tidalcycles version: 1.0.14
 
+In Inception there is a chase scene in Mombasa.
+
 #+begin_src haskell
 p "marea19" $ every 7 (jux rev) $ stack [
   every 3 (within (1/3,2/3) (# speed 0.333))
@@ -621,6 +627,8 @@ p "marea19" $ every 7 (jux rev) $ stack [
 
 published on: 2019-07-12
 tidalcycles version: 1.0.14
+
+Ok this is cool.
 
 #+begin_src haskell
 p "marea20" $ every 8 (#sound "tabla2")
@@ -644,6 +652,8 @@ p "marea20" $ every 8 (#sound "tabla2")
 
 published on: 2019-07-13
 tidalcycles version: 1.0.14
+
+Come out of your hiding place and do not be afraid. We know what to do.
 
 #+begin_src haskell
 p "marea21" $ stack [
