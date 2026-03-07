@@ -687,6 +687,8 @@ p "marea21" $ stack [
 published on: 2019-07-14
 tidalcycles version: 1.0.14
 
+Repetitive and lacking in dynamics. Not one of my favourites.
+
 #+begin_src haskell
 p "marea22" $ stack [
   superimpose ((# s "xmas")
@@ -714,6 +716,8 @@ p "marea22" $ stack [
 published on: 2019-07-15
 tidalcycles version: 1.0.14
 
+Clear inspiration from Year Zero. When I grow up I want to be Trent Reznor.
+
 #+begin_src haskell
 p "marea23"
   $ iter 4
@@ -733,6 +737,8 @@ p "marea23"
 
 published on: 2019-07-16
 tidalcycles version: 1.0.14
+
+I like the hypnotic feel of the drums, here the repetitiveness works well.
 
 #+begin_src haskell
 p "marea24" $ every 8
@@ -764,6 +770,8 @@ p "marea24" $ every 8
 published on: 2019-07-17
 tidalcycles version: 1.0.14
 
+Smilla's metallic sense of game over.
+
 #+begin_src haskell
 p "marea25" $ stack [
   fast 2 $ striate "[32 16 8 4 2]/10"
@@ -785,6 +793,8 @@ p "marea25" $ stack [
 
 published on: 2019-07-18
 tidalcycles version: 1.0.14
+
+House music for when your house is a Super Mario Bros. 2 level on the NES.
 
 #+begin_src haskell
 p "marea26"
@@ -809,6 +819,8 @@ p "marea26"
 published on: 2019-07-19
 tidalcycles version: 1.0.14
 
+"Crescendo", I would never have guessed.
+
 #+begin_src haskell
 p "marea27" $ stack [
   every 4 (chop 3 . rev)
@@ -832,6 +844,8 @@ p "marea27" $ stack [
 published on: 2019-07-21
 tidalcycles version: 1.0.14
 
+Panning so badly done it hurts your ears.
+
 #+begin_src haskell
 p "marea28" $ every 4
   (jux (rev . (# gain 0.7))) $
@@ -852,6 +866,8 @@ p "marea28" $ every 4
 
 published on: 2019-07-23
 tidalcycles version: 1.0.14
+
+I like how scattered and ethereal it is, proof that even a spastic movement can be alienating.
 
 #+begin_src haskell
 p "marea29" $ scramble "<3 2 4>"
