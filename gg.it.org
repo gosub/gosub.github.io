@@ -217,6 +217,8 @@ d1 $ stack [
 published on: 2019-06-26
 tidalcycles version: 1.0.13
 
+This is how the sea would sound if it had a forest, and if that forest had an undergrowth.
+
 #+begin_src haskell
 d1 $stack [
   every 8 ((# speed 2) . (# pan sine))
@@ -240,6 +242,8 @@ d1 $stack [
 
 published on: 2019-06-27
 tidalcycles version: 1.0.13
+
+This is the toy music box that played while Richard D. James was growing up.
 
 #+begin_src haskell
 d1 $ every 7 (trunc 0.75) $ stack [
@@ -265,6 +269,8 @@ d1 $ every 7 (trunc 0.75) $ stack [
 
 published on: 2019-06-28
 tidalcycles version: 1.0.13
+
+Disco club of leaves.
 
 #+begin_src haskell
 d1 $ every 16 brak $ stack [
@@ -297,6 +303,8 @@ d1 $ every 16 brak $ stack [
 published on: 2019-07-01
 tidalcycles version: 1.0.13
 
+Distressing and oppressive, like a hospital visit.
+
 #+begin_src haskell
 d1 $ every 8 (stutWith 4 0.5
               (# vowel "a a e a"))
@@ -320,6 +328,8 @@ d1 $ every 8 (stutWith 4 0.5
 
 published on: 2019-07-02
 tidalcycles version: 1.0.13
+
+Walking among the cabinets of an interdimensional arcade.
 
 #+begin_src haskell
 d1 $ stack [
