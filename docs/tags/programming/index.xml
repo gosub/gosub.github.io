@@ -6,8 +6,15 @@
     <description>Recent content in programming on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jan 2026 18:45:20 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 08:20:22 +0100</lastBuildDate>
     <atom:link href="https://giampaolo.guiducci.it/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boot, Prompt, Run: what happens to personal computing when software writes itself</title>
+      <link>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</link>
+      <pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
+      <guid>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</guid>
+      <description>&lt;p&gt;Imagine turning on a computer. There is no operating system, no desktop, no&#xA;apps. The machine holds just enough code to make a single HTTPS call. It&#xA;reaches out to a remote LLM, describes its hardware, and asks for a system.&#xA;Seconds later, it is running one: built from scratch, tailored to this specific&#xA;machine and this specific user. Nothing was installed. Nothing needs to be&#xA;stored. The software was conjured into existence and will vanish when the power&#xA;goes off, if you want it to.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The many faces of the XOR operation</title>
       <link>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</link>
