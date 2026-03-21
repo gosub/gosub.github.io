@@ -14,6 +14,39 @@
     ctx.restore();
   }
 
+  // Build a 256-entry RGB palette by linearly interpolating between colour stops.
+  // stops: [{pos:0-255, r, g, b}, ...] sorted by pos.
+  function buildPalette(stops) {
+    var pal = new Uint8Array(256 * 3);
+    for (var i = 0; i < 256; i++) {
+      var lo = stops[0], hi = stops[stops.length - 1];
+      for (var s = 0; s < stops.length - 1; s++) {
+        if (i >= stops[s].pos && i <= stops[s + 1].pos) {
+          lo = stops[s]; hi = stops[s + 1]; break;
+        }
+      }
+      var t = hi.pos > lo.pos ? (i - lo.pos) / (hi.pos - lo.pos) : 0;
+      pal[i * 3]     = Math.round(lo.r + (hi.r - lo.r) * t);
+      pal[i * 3 + 1] = Math.round(lo.g + (hi.g - lo.g) * t);
+      pal[i * 3 + 2] = Math.round(lo.b + (hi.b - lo.b) * t);
+    }
+    return pal;
+  }
+
+  // Shared hue (0–360) → [r, g, b] in [0, 1]
+  function hueToRgb(hue) {
+    var h = hue / 60;
+    var x = 1 - Math.abs(h % 2 - 1);
+    var r, g, b;
+    if      (h < 1) { r = 1; g = x; b = 0; }
+    else if (h < 2) { r = x; g = 1; b = 0; }
+    else if (h < 3) { r = 0; g = 1; b = x; }
+    else if (h < 4) { r = 0; g = x; b = 1; }
+    else if (h < 5) { r = x; g = 0; b = 1; }
+    else            { r = 1; g = 0; b = x; }
+    return [r, g, b];
+  }
+
   // ── Plasma ────────────────────────────────────────────────────────────────
 
   var plasma = {
@@ -216,10 +249,191 @@
     }
   };
 
+  // ── Starfield ─────────────────────────────────────────────────────────────
+
+  var starfield = {
+    init: function (ctx, W, H, clip) {
+      this.ctx  = ctx;
+      this.W    = W;
+      this.H    = H;
+      this.clip = clip;
+      var cx = W / 2, cy = H / 2;
+      this.cx = cx;
+      this.cy = cy;
+      this.stars = [];
+      for (var i = 0; i < 80; i++) {
+        this.stars.push({
+          x: Math.random() * W - cx,
+          y: Math.random() * H - cy,
+          z: Math.random() * W
+        });
+      }
+    },
+
+    draw: function () {
+      var ctx = this.ctx, W = this.W, H = this.H;
+      var cx = this.cx, cy = this.cy;
+      var stars = this.stars;
+
+      // Advance positions
+      for (var i = 0; i < stars.length; i++) {
+        stars[i].z -= 0.9;
+        if (stars[i].z <= 0) {
+          stars[i].x = Math.random() * W - cx;
+          stars[i].y = Math.random() * H - cy;
+          stars[i].z = W;
+        }
+      }
+
+      this.clip(function () {
+        ctx.fillStyle = 'rgba(255,255,255,0.25)';
+        ctx.fillRect(0, 0, W, H);
+        for (var i = 0; i < stars.length; i++) {
+          var s = stars[i];
+          var px   = (s.x / s.z) * W + cx;
+          var py   = (s.y / s.z) * H + cy;
+          var frac = 1 - s.z / W;
+          var size = Math.max(1, frac * frac * 6);
+          var bri  = Math.floor((1 - frac) * 220);
+          ctx.fillStyle = 'rgb(' + bri + ',' + bri + ',' + bri + ')';
+          ctx.fillRect(px, py, size, size);
+        }
+      });
+    }
+  };
+
+  // ── Mandelbrot Zoom ───────────────────────────────────────────────────────
+
+  var mandelbrot = {
+    init: function (ctx, W, H, clip) {
+      this.ctx      = ctx;
+      this.W        = W;
+      this.H        = H;
+      this.clip     = clip;
+      this.time     = 0;
+      this.img      = ctx.createImageData(W, H);
+      this.MAX_ITER = 80;
+      this.TX       = -0.7435669;  // Seahorse Valley
+      this.TY       =  0.1314023;
+      this.palette  = buildPalette([
+        { pos:   0, r: 0xff, g: 0xff, b: 0xff },  // white
+        { pos:  85, r: 0x2b, g: 0xbc, b: 0x8a },  // theme green
+        { pos: 170, r: 0x1a, g: 0x3a, b: 0x5c },  // deep blue
+        { pos: 255, r: 0xff, g: 0xff, b: 0xff },  // white (cycle)
+      ]);
+    },
+
+    draw: function () {
+      var W = this.W, H = this.H, MAX = this.MAX_ITER;
+      var t = this.time;
+      var pal = this.palette;
+      var d = this.img.data;
+      // One-way exponential zoom: full set → ×3500 deep in Seahorse Valley
+      // PERIOD matches the 30 s effect slot (30 s × 60 fps × 0.02 time/frame = 36)
+      var PERIOD = 36;
+      var progress = Math.min(t / PERIOD, 1);
+      var scale = 3.5 * Math.pow(0.001 / 3.5, progress);
+      for (var y = 0; y < H; y++) {
+        for (var x = 0; x < W; x++) {
+          var cr = this.TX + (x / W - 0.5) * scale;
+          var ci = this.TY + (y / H - 0.5) * scale;
+          var zr = 0, zi = 0, iter = 0;
+          while (iter < MAX && zr * zr + zi * zi < 4) {
+            var nr = zr * zr - zi * zi + cr;
+            zi = 2 * zr * zi + ci;
+            zr = nr;
+            iter++;
+          }
+          var idx = (y * W + x) * 4;
+          if (iter === MAX) {
+            d[idx] = 0x0e; d[idx + 1] = 0x4d; d[idx + 2] = 0x35;
+          } else {
+            var pi = Math.floor(iter * (255 / (MAX - 1))) * 3;
+            d[idx] = pal[pi]; d[idx + 1] = pal[pi + 1]; d[idx + 2] = pal[pi + 2];
+          }
+          d[idx + 3] = 255;
+        }
+      }
+      var img = this.img, ctx = this.ctx;
+      this.clip(function () { ctx.putImageData(img, 0, 0); });
+      this.time += 0.02;
+    }
+  };
+
+  // ── Julia Set ─────────────────────────────────────────────────────────────
+
+  var julia = {
+    init: function (ctx, W, H, clip) {
+      this.ctx      = ctx;
+      this.W        = W;
+      this.H        = H;
+      this.clip     = clip;
+      this.time     = 0;
+      this.img      = ctx.createImageData(W, H);
+      this.MAX_ITER = 64;
+      // 4-stop palette: white → theme green → deep blue → white (cyclic)
+      this.palette  = buildPalette([
+        { pos:   0, r: 0xff, g: 0xff, b: 0xff },  // white
+        { pos:  85, r: 0x2b, g: 0xbc, b: 0x8a },  // theme green
+        { pos: 170, r: 0x1a, g: 0x3a, b: 0x5c },  // deep blue
+        { pos: 255, r: 0xff, g: 0xff, b: 0xff },  // white (cycle)
+      ]);
+    },
+
+    draw: function () {
+      var W = this.W, H = this.H, MAX = this.MAX_ITER;
+      var t = this.time;
+      var cr = 0.7885 * Math.cos(t);
+      var ci = 0.7885 * Math.sin(t);
+      var d = this.img.data;
+      var pal = this.palette;
+      for (var y = 0; y < H; y++) {
+        for (var x = 0; x < W; x++) {
+          var zr = (x / W) * 3.5 - 1.75;
+          var zi = (y / H) * 3.5 - 1.75;
+          var iter = 0;
+          while (iter < MAX && zr * zr + zi * zi < 4) {
+            var nr = zr * zr - zi * zi + cr;
+            zi = 2 * zr * zi + ci;
+            zr = nr;
+            iter++;
+          }
+          var idx = (y * W + x) * 4;
+          if (iter === MAX) {
+            d[idx] = 0x0e; d[idx + 1] = 0x4d; d[idx + 2] = 0x35;
+          } else {
+            var pi = Math.floor(iter * (255 / (MAX - 1))) * 3;
+            d[idx]     = pal[pi];
+            d[idx + 1] = pal[pi + 1];
+            d[idx + 2] = pal[pi + 2];
+          }
+          d[idx + 3] = 255;
+        }
+      }
+      var img = this.img, ctx = this.ctx;
+      this.clip(function () { ctx.putImageData(img, 0, 0); });
+      this.time += 0.02;
+    }
+  };
+
   // ── Engine ────────────────────────────────────────────────────────────────
 
-  var effects = [plasma, fire, life];
-  var current = effects[Math.floor(Math.random() * effects.length)];
+  var effects   = [plasma, fire, life, starfield, julia, mandelbrot];
+  var idx       = Math.floor(Math.random() * effects.length);
+  var current   = effects[idx];
   current.init(ctx, W, H, clip);
-  (function loop() { current.draw(); requestAnimationFrame(loop); })();
+  var lastSwitch = Date.now();
+  var CYCLE_MS   = 30000;
+
+  (function loop() {
+    var now = Date.now();
+    if (now - lastSwitch >= CYCLE_MS) {
+      idx = (idx + 1) % effects.length;
+      current = effects[idx];
+      current.init(ctx, W, H, clip);
+      lastSwitch = now;
+    }
+    current.draw();
+    requestAnimationFrame(loop);
+  })();
 })();
