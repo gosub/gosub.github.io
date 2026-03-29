@@ -67,6 +67,12 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** TODO Notes from the Curve :ai:llm:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-03-29-notes-from-the-curve
+:EXPORT_DATE: 2026-03-29T14:55:23+02:00
+:END:
+
 ** Boot, Prompt, Run: what happens to personal computing when software writes itself :ai:llm:computing:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-03-15-boot-prompt-run
