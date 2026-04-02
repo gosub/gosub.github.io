@@ -73,20 +73,11 @@ giampaolo.guiducci.it
 :EXPORT_DATE: 2026-03-29T14:55:23+02:00
 :END:
 
-This post could have been named in many different ways. Here are a couple of
-titles I considered and rejected:
-
-- Things I believe about AI and LLMs in the first months of 2026
-- Observation from the present future
-- As it becomes real
-- Science fiction in the making
-
-I want to convey this feeling, that we are living something that is more than
-'times of change'. I've always wondered what would have been like to be living
-in the early years of the previous century, whle new amazing discoveries were
-being made: relativity, quantum physics. Well, my take is that we are now in an
-anologous situation with AI and LLMs; our world is going to change in ways we
-can hardly imagine. The following notes are those I imagined.
+I've always wondered what would have been like to have lived in the early years
+of the previous century, whle new amazing discoveries were being made, like
+relativity and quantum physics. My not-so-original take is that we are now in an
+anologous situation with AI and LLMs: our world is going to change in ways we
+can hardly imagine. The following notes are some of the ways I imagined.
 
 *** AI will eat Software
 Just like software has eaten everything else, AI in its various forms will
@@ -117,6 +108,20 @@ just need to catch it. And there's a robot for that.
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** code generation is an extreme form of late binding
 *** Language Systems will substitute Operating Systems
+*** Epilogue
+This post could have been named in many different ways. Here are a couple of
+titles I considered and rejected:
+
+- Things I believe about AI and LLMs in the first months of 2026
+- Observation from the present future
+- As it becomes real
+- Science fiction in the making
+
+I wanted to express the feeling that we are living something that is more than
+'times of change'. I like the title "Notes from the Curve" because it's evocative,
+science-fiction-y, and conveys the idea that we are riding an exponential curve,
+like cyberpunks in a Gibson's novel. How cool, eh?
+
 ** Boot, Prompt, Run: what happens to personal computing when software writes itself :ai:llm:computing:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-03-15-boot-prompt-run
