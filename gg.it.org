@@ -73,8 +73,39 @@ giampaolo.guiducci.it
 :EXPORT_DATE: 2026-03-29T14:55:23+02:00
 :END:
 
-*** ai will eat software
-*** we will need only land. in the autonomous robotics era
+This post could have been named in many different ways. Here are a couple of
+titles I considered and rejected:
+
+- Things I believe about AI and LLMs in the first months of 2026
+- Observation from the present future
+- As it becomes real
+- Science fiction in the making
+
+I want to convey this feeling, that we are living something that is more than
+'times of change'. I've always wondered what would have been like to be living
+in the early years of the previous century, whle new amazing discoveries were
+being made: relativity, quantum physics. Well, my take is that we are now in an
+anologous situation with AI and LLMs; our world is going to change in ways we
+can hardly imagine. The following notes are those I imagined.
+
+*** AI will eat Software
+Just like software has eaten everything else, AI in its various forms will
+permeate and tranformate both the digital and physical word, taking the place of
+software as the operating substrate.
+
+*** You will only need land
+We still do not know if LLMs will scale to the physical world, being enough to
+do to robotics what LLMs have done to language and programming. Maybe we will
+need World Models, like Lecunn says, but the gates are now open, and we will get
+there.  One day, every family will have a Butler robot, a Housekeeper robot, a
+Personal Chef robot, a Personal Trainer robot, a Doctor robot. Maybe they will
+all be the same robot, or different robots, doesn't matter. But just after that,
+you will want a Mason robot, a Blacksmith robot, a Carpenter robot, a Farmer
+robot, a Sheperd robot, a Mechanic robot. At that point you will only need some
+land to be self-sufficient. Ok, you will also need energy, but that often comes
+with land: solar, geothermal, hydro, wind — all belong to you, on your land, you
+just need to catch it. And there's a robot for that.
+
 *** even if humanoid robots are not strictly needed, robots navigating human space and manipulating human stuff will explode
 *** were will be ai that will do contractions for his user
 *** if the answer is transaction costs, ai will transacts
