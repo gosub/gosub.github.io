@@ -75,44 +75,61 @@ giampaolo.guiducci.it
 
 I've always wondered what would have been like to have lived in the early years
 of the previous century, whle new amazing discoveries were being made, like
-relativity and quantum physics. My not-so-original take is that we are now in an
+relativity and quantum physics, changing our outlook on the whole universe, on
+what is possible and what not. My not-so-original take is that we are now in an
 anologous situation with AI and LLMs: our world is going to change in ways we
 can hardly imagine. The following notes are some of the ways I imagined.
 
 *** AI will eat Software
 Just like software has eaten everything else, AI in its various forms will
-permeate and tranformate both the digital and physical word, taking the place of
-software as the operating substrate.
+permeate and tranformate both the digital and physical words, taking the place
+of software as the operating substrate.
 
-*** You will only need land
+*** robotics will explode
 We still do not know if LLMs will scale to the physical world, being enough to
 do to robotics what LLMs have done to language and programming. Maybe we will
 need World Models, like Lecunn says, but the gates are now open, and we will get
-there.  One day, every family will have a Butler robot, a Housekeeper robot, a
-Personal Chef robot, a Personal Trainer robot, a Doctor robot. Maybe they will
-all be the same robot, or different robots, doesn't matter. But just after that,
-you will want a Mason robot, a Blacksmith robot, a Carpenter robot, a Farmer
-robot, a Sheperd robot, a Mechanic robot. At that point you will only need some
-land to be self-sufficient. Ok, you will also need energy, but that often comes
-with land: solar, geothermal, hydro, wind — all belong to you, on your land, you
-just need to catch it. And there's a robot for that.
+there. Even if humanoid robotics will not be strictly needed, machine navigating
+human spaces and manipulating human stuff will be in so much demand that
+production will not be able to keep up. Soon every family will have a Butler
+robot, a Housekeeper robot, a Personal Chef robot, a Personal Trainer robot, a
+Doctor robot. Maybe they will all be the same robot, or different robots, it
+doesn't matter.
 
-*** even if humanoid robots are not strictly needed, robots navigating human space and manipulating human stuff will explode
+*** We will only need land
+But just after that, we will want a Mason robot, a Blacksmith robot, a Carpenter
+robot, a Farmer robot, a Sheperd robot, a Mechanic robot. At that point we will
+only need some land to be self-sufficient. Ok, we will also need energy, but
+that often comes with land: solar, geothermal, hydro, wind — all belonging to
+us, on our land, waiting to be captured. We will build our own small solar farm,
+wind farm, geo farm. And there will be a robot for that.
+
+*** The Raspberry Pi moment for AI is yet to come
+Current capabilities of LLMs shows that self-hosted models start to be
+significantly useful around 30B/40B parameters. To self host a model of that
+size today, we need to spend north of $2000, and still be playing hyperparameter
+whack-a-mole to find the correct combination of temperature, min-p, and so
+on. What we are all waiting for is a little box with the computation power of a
+modern GPU/TPU, 64GB of unified fast memory, and costing $200. If it will also
+be stackable with something like NVLink + EXA, we could start building our own
+supermodel month by month. They will sell like hotcake.
+
 *** were will be ai that will do contractions for his user
 *** if the answer is transaction costs, ai will transacts
 *** personalized medicine will evolve from reading blood tests to continuous monitoring
-*** people will buy a lot of 200€ tpus with 64GB of unified memory. Its the current horizon for a self-hosted useful LLM. if they will be composable with something like nvlink (physical) and exa (logical) they will explode
 *** journalism will be largely automated
 *** partisan journalism will fade in obscurity
-*** energy will be only currency
+*** energy and knowledge will be only currencies
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** code generation is an extreme form of late binding
 *** Language Systems will substitute Operating Systems
+*** AC/BC
+
 *** Epilogue
 This post could have been named in many different ways. Here are a couple of
 titles I considered and rejected:
 
-- Things I believe about AI and LLMs in the first months of 2026
+- Thoughts about AI and LLMs in the early months of 2026
 - Observation from the present future
 - As it becomes real
 - Science fiction in the making
