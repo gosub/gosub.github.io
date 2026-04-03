@@ -122,6 +122,17 @@ supermodel month by month. They will sell like hotcake.
 *** energy and knowledge will be only currencies
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** code generation is an extreme form of late binding
+
+*** Low background text
+There are some specialized particle detectors that need metal without any trace
+of radiation in them. The problem is that any metallurgic product fabricated
+after the second word war is contaminated. Scientist are then forced to recover
+steel and other metals from underwater shipwrecks, where all the water above
+shielded the metal from the radiation. All this preamble to say that LLMs today
+have contaminated all the available text in the world, so scientist will need to
+recover as much text as possible produced before the advent of ChatGPT to have a
+realistic view of what human language really is.
+
 *** Language Systems will substitute Operating Systems
 It's the natural consequence [[https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/][when software writes itself]].
 
