@@ -121,7 +121,7 @@ supermodel month by month. They will sell like hotcake.
 *** partisan journalism will fade in obscurity
 *** energy and knowledge will be only currencies
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
-*** code generation is an extreme form of late binding
+*** Automatic Code Generation is the extreme form of Late Binding
 
 *** Low background text
 There are some specialized particle detectors that need metal without any trace
