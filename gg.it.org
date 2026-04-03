@@ -123,6 +123,8 @@ supermodel month by month. They will sell like hotcake.
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** code generation is an extreme form of late binding
 *** Language Systems will substitute Operating Systems
+It's the natural consequence [[https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/][when software writes itself]].
+
 *** AC/BC
 This is tongue-in-cheek, but if things take a turn for the worst, dates in the
 future will be described as /before ChatGPT/ (bC) and /after ChatGPT/ (aC).
