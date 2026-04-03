@@ -124,6 +124,8 @@ supermodel month by month. They will sell like hotcake.
 *** code generation is an extreme form of late binding
 *** Language Systems will substitute Operating Systems
 *** AC/BC
+This is tongue-in-cheek, but if things take a turn for the worst, dates in the
+future will be described as /before ChatGPT/ (bC) and /after ChatGPT/ (aC).
 
 *** Epilogue
 This post could have been named in many different ways. Here are a couple of
