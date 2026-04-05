@@ -114,8 +114,12 @@ modern GPU/TPU, 64GB of unified fast memory, and costing $200. If it will also
 be stackable with something like NVLink + EXA, we could start building our own
 supermodel month by month. They will sell like hotcake.
 
-*** were will be ai that will do contractions for his user
-*** if the answer is transaction costs, ai will transacts
+*** were will be AIs that will do bargaining for their user
+if the answer is transaction costs (like the title in one of my favourite
+podcast), AI will bring down transaction costs by transacting for their user, in
+their best interest, knowing all the psycological techniques and not falling for
+them. An AI will buy us a car at the best valuation /for us/.
+
 *** personalized medicine will evolve from reading blood tests to continuous monitoring
 *** journalism will be largely automated
 *** partisan journalism will fade in obscurity
