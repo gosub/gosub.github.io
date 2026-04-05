@@ -85,15 +85,13 @@ digital and physical world, taking software's place as the default operating
 substrate.
 
 *** robotics will explode
-We still do not know if LLMs will scale to the physical world, being enough to
-do to robotics what LLMs have done to language and programming. Maybe we will
-need World Models, like Lecunn says, but the gates are now open, and we will get
-there. Even if humanoid robotics will not be strictly needed, machine navigating
-human spaces and manipulating human stuff will be in so much demand that
-production will not be able to keep up. Soon every family will have a Butler
-robot, a Housekeeper robot, a Personal Chef robot, a Personal Trainer robot, a
-Doctor robot. Maybe they will all be the same robot, or different robots, it
-doesn't matter.
+We still do not know if LLMs will scale to the physical world the way they
+scaled to language and programming. Maybe we will need World Models, as LeCun
+argues. But the gates are open. Even if humanoid robots aren't strictly
+necessary, machines navigating human spaces and manipulating human objects will
+be in so much demand that production won't keep up. Soon every family will have
+a Butler robot, a Housekeeper robot, a Personal Chef robot, a Personal Trainer
+robot, a Doctor robot. Maybe they'll all be the same robot. Doesn't matter.
 
 *** We will only need land
 But just after that, we will want a Mason robot, a Blacksmith robot, a Carpenter
