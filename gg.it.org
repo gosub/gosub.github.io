@@ -101,14 +101,13 @@ hydro, wind — all waiting to be captured. We'll build our own small solar farm
 wind farm, geo farm. There'll be a robot for that too.
 
 *** The Raspberry Pi moment for AI is yet to come
-Current capabilities of LLMs shows that self-hosted models start to be
-significantly useful around 30B/40B parameters. To self host a model of that
-size today, we need to spend north of $2000, and still be playing hyperparameter
-whack-a-mole to find the correct combination of temperature, min-p, and so
-on. What we are all waiting for is a little box with the computation power of a
-modern GPU/TPU, 64GB of unified fast memory, and costing $200. If it will also
-be stackable with something like NVLink + EXA, we could start building our own
-supermodel month by month. They will sell like hotcake.
+Current LLMs become significantly useful at around 30–40B parameters. To
+self-host a model that size today you need to spend north of $2000, and still
+play hyperparameter whack-a-mole to find the right combination of temperature,
+min-p, and so on. What we're all waiting for is a small box with the compute of
+a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
+via something like NVLink or EXA, you could build your own supermodel month by
+month. They'll sell like hotcakes.
 
 *** were will be AIs that will do bargaining for their user
 if the answer is transaction costs (like the title in one of my favourite
