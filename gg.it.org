@@ -84,7 +84,7 @@ Just like software ate everything else, AI will permeate and tranform both the
 digital and physical world, taking software's place as the default operating
 substrate.
 
-*** robotics will explode
+*** Robotics will explode
 We still do not know if LLMs will scale to the physical world the way they
 scaled to language and programming. Maybe we will need World Models, as LeCun
 argues. But the gates are open. Even if humanoid robots aren't strictly
