@@ -80,9 +80,9 @@ now. Our world is going to change in ways we can hardly imagine. The following
 notes are some of those ways.
 
 *** AI will eat Software
-Just like software has eaten everything else, AI in its various forms will
-permeate and tranformate both the digital and physical words, taking the place
-of software as the operating substrate.
+Just like software ate everything else, AI will permeate and tranform both the
+digital and physical world, taking software's place as the default operating
+substrate.
 
 *** robotics will explode
 We still do not know if LLMs will scale to the physical world, being enough to
