@@ -109,7 +109,6 @@ a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
 via something like NVLink or EXA, you could build your own supermodel month by
 month. They'll sell like hotcakes.
 
-*** energy and knowledge will be only currencies
 *** Transaction Costs, Hacked.
 If the answer is transaction costs, as one of my favourite podcasts argues, AI
 will bring them down by transacting on your behalf, knowing every psychological
@@ -131,6 +130,14 @@ AI will hunt for facts, correlations, and sources, and write the articles. Your
 personal news agent will then scan everything for bias: partisan omissions,
 loaded wording, agenda-driven framing. All the tricks. Journalism doesn't
 disappear; it gets audited in real time. The spin cycle stops.
+
+*** The Last Currencies
+Future economic autonomous agents won't need dollars or euros. Energy and
+knowledge are self-backing: they have intrinsic worth, they are transferable,
+they are fungible. No central authority required. In some cases,
+proof-of-work-like demonstrations will act as escrow: proving that certain
+knowledge has a certain value before the knowledge itself is transmitted. The
+currency is the thing is the currency.
 
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** Automatic Code Generation is the extreme form of Late Binding
