@@ -94,12 +94,11 @@ a Butler robot, a Housekeeper robot, a Personal Chef robot, a Personal Trainer
 robot, a Doctor robot. Maybe they'll all be the same robot. Doesn't matter.
 
 *** We will only need land
-But just after that, we will want a Mason robot, a Blacksmith robot, a Carpenter
-robot, a Farmer robot, a Sheperd robot, a Mechanic robot. At that point we will
-only need some land to be self-sufficient. Ok, we will also need energy, but
-that often comes with land: solar, geothermal, hydro, wind — all belonging to
-us, on our land, waiting to be captured. We will build our own small solar farm,
-wind farm, geo farm. And there will be a robot for that.
+But just after that, we'll want a Mason robot, a Blacksmith robot, a Carpenter
+robot, a Farmer robot, a Shepherd robot, a Mechanic robot. At that point we will
+only need land to be self-sufficient. Land comes with energy: solar, geothermal,
+hydro, wind — all waiting to be captured. We'll build our own small solar farm,
+wind farm, geo farm. There'll be a robot for that too.
 
 *** The Raspberry Pi moment for AI is yet to come
 Current capabilities of LLMs shows that self-hosted models start to be
