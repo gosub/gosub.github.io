@@ -109,7 +109,6 @@ a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
 via something like NVLink or EXA, you could build your own supermodel month by
 month. They'll sell like hotcakes.
 
-*** personalized medicine will evolve from reading blood tests to continuous monitoring
 *** journalism will be largely automated
 *** partisan journalism will fade in obscurity
 *** energy and knowledge will be only currencies
@@ -118,6 +117,16 @@ If the answer is transaction costs, as one of my favourite podcasts argues, AI
 will bring them down by transacting on your behalf, knowing every psychological
 technique, every salesman trick, and immune to all of them. An AI will buy you a
 car at the best valuation /for you/.
+
+*** Anamnesis, Diagnosis, Synthesis
+The current economics of medicine is built around scarcity: scarce doctor
+attention, scarce data, scarce time. Your doctor doesn't know what you actually
+ate, how little you actually moved, or what your body was doing at 3am. They
+work from snapshots, a blood test, a consultation, and guess at the rest. AI
+fixes this. Continuous monitoring means a permanent, honest record of everything
+your body does, correlated against everything you do. Your doctor, or your
+Doctor robot, will know more about you than you do. And they will only care
+about you.
 
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** Automatic Code Generation is the extreme form of Late Binding
