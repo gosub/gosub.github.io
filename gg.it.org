@@ -109,16 +109,16 @@ a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
 via something like NVLink or EXA, you could build your own supermodel month by
 month. They'll sell like hotcakes.
 
-*** were will be AIs that will do bargaining for their user
-if the answer is transaction costs (like the title in one of my favourite
-podcast), AI will bring down transaction costs by transacting for their user, in
-their best interest, knowing all the psycological techniques and not falling for
-them. An AI will buy us a car at the best valuation /for us/.
-
 *** personalized medicine will evolve from reading blood tests to continuous monitoring
 *** journalism will be largely automated
 *** partisan journalism will fade in obscurity
 *** energy and knowledge will be only currencies
+*** Transaction Costs, Hacked.
+If the answer is transaction costs, as one of my favourite podcasts argues, AI
+will bring them down by transacting on your behalf, knowing every psychological
+technique, every salesman trick, and immune to all of them. An AI will buy you a
+car at the best valuation /for you/.
+
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** Automatic Code Generation is the extreme form of Late Binding
 
