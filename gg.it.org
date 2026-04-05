@@ -73,12 +73,11 @@ giampaolo.guiducci.it
 :EXPORT_DATE: 2026-03-29T14:55:23+02:00
 :END:
 
-I've always wondered what would have been like to have lived in the early years
-of the previous century, whle new amazing discoveries were being made, like
-relativity and quantum physics, changing our outlook on the whole universe, on
-what is possible and what not. My not-so-original take is that we are now in an
-anologous situation with AI and LLMs: our world is going to change in ways we
-can hardly imagine. The following notes are some of the ways I imagined.
+I've always wondered what it would have been like to live in the early years of
+the last century, while relativity and quantum physics were rewriting what we
+thought possible. My not-so-original take: we are in an analogous situation
+now. Our world is going to change in ways we can hardly imagine. The following
+notes are some of those ways.
 
 *** AI will eat Software
 Just like software has eaten everything else, AI in its various forms will
