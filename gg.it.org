@@ -109,8 +109,6 @@ a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
 via something like NVLink or EXA, you could build your own supermodel month by
 month. They'll sell like hotcakes.
 
-*** journalism will be largely automated
-*** partisan journalism will fade in obscurity
 *** energy and knowledge will be only currencies
 *** Transaction Costs, Hacked.
 If the answer is transaction costs, as one of my favourite podcasts argues, AI
@@ -127,6 +125,12 @@ fixes this. Continuous monitoring means a permanent, honest record of everything
 your body does, correlated against everything you do. Your doctor, or your
 Doctor robot, will know more about you than you do. And they will only care
 about you.
+
+*** Fair journalism will be solved
+AI will hunt for facts, correlations, and sources, and write the articles. Your
+personal news agent will then scan everything for bias: partisan omissions,
+loaded wording, agenda-driven framing. All the tricks. Journalism doesn't
+disappear; it gets audited in real time. The spin cycle stops.
 
 *** mass surveillance will be public and distributed, privacy will be an old 20th century concept
 *** Automatic Code Generation is the extreme form of Late Binding
