@@ -109,6 +109,21 @@ a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
 via something like NVLink or EXA, you could build your own supermodel month by
 month. They'll sell like hotcakes.
 
+*** The Distilled Reasoner
+There will be a breakthrough in model architecture, but it won't be designed: it
+will be observed. At some scale, a model will stop recollecting and start
+re-deriving: given the base information that produced an insight, it will
+reconstruct the insight from first principles rather than retrieve it from
+compressed training data. Re-derivation will emerge because it is less
+computationally expensive than recollection: the network will learn it as a form
+of energy minimization. The difference is profound. A model that re-derives is
+more robust and generalizes out of distribution, precisely because it is not
+interpolating over memorized examples but reconstructing from underlying
+structure. Once the behavior is observed in a large model, it will be distilled
+into a simpler architecture. That distilled model will run on a phone or a
+datacenter indifferently: the only difference being computation time and context
+size. This is a possible Raspberry Pi moment.
+
 *** Transaction Costs, Hacked.
 If the answer is transaction costs, as one of my favourite podcasts argues, AI
 will bring them down by transacting on your behalf, knowing every psychological
