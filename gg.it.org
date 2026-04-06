@@ -79,35 +79,15 @@ thought possible. My not-so-original take: we are in an analogous situation
 now. Our world is going to change in ways we can hardly imagine. The following
 notes are some of those ways.
 
-*** AI will eat Software
-Just like software ate everything else, AI will permeate and transform both the
-digital and physical world, taking software's place as the default operating
-substrate.
-
-*** Robotics will explode
-We still do not know if LLMs will scale to the physical world the way they
-scaled to language and programming. Maybe we will need World Models, as LeCun
-argues. But the gates are open. Even if humanoid robots aren't strictly
-necessary, machines navigating human spaces and manipulating human objects will
-be in so much demand that production won't keep up. Soon every family will have
-a Butler robot, a Housekeeper robot, a Personal Chef robot, a Personal Trainer
-robot, a Doctor robot. Maybe they'll all be the same robot. Doesn't matter.
-
-*** We will only need land
-But just after that, we'll want a Mason robot, a Blacksmith robot, a Carpenter
-robot, a Farmer robot, a Shepherd robot, a Mechanic robot. At that point we will
-only need land to be self-sufficient. Land comes with energy: solar, geothermal,
-hydro, wind, all waiting to be captured. We'll build our own small solar farm,
-wind farm, geo farm. There'll be a robot for that too.
-
-*** The Raspberry Pi moment for AI is yet to come
-Current LLMs become significantly useful at around 30–40B parameters. To
-self-host a model that size today you need to spend north of $2000, and still
-play hyperparameter whack-a-mole to find the right combination of temperature,
-min-p, and so on. What we're all waiting for is a small box with the compute of
-a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
-via something like NVLink or EXA, you could build your own supermodel month by
-month. They'll sell like hotcakes.
+*** Low background text
+Some specialized particle detectors need metal without any trace of
+radiation. The problem is that any metallurgic product fabricated after the
+Second World War is contaminated. Scientists are then forced to [[https://en.wikipedia.org/wiki/Low-background_steel][recover steel
+and other metals from underwater shipwrecks]], where the water above shielded the
+metal from radiation. All this preamble to say that LLMs have contaminated all
+the available text in the world, a language fallout of sorts. Scientists will
+need to recover as much text as possible produced before the advent of ChatGPT
+to have a realistic view of what human language really is.
 
 *** The Distilled Reasoner
 There will be a breakthrough in model architecture, but it won't be designed: it
@@ -123,6 +103,44 @@ structure. Once the behavior is observed in a large model, it will be distilled
 into a simpler architecture. That distilled model will run on a phone or a
 datacenter indifferently: the only difference being computation time and context
 size. This is a possible Raspberry Pi moment.
+
+*** The Raspberry Pi moment for AI is yet to come
+Current LLMs become significantly useful at around 30–40B parameters. To
+self-host a model that size today you need to spend north of $2000, and still
+play hyperparameter whack-a-mole to find the right combination of temperature,
+min-p, and so on. What we're all waiting for is a small box with the compute of
+a modern GPU/TPU, 64GB of unified fast memory, and a $200 price tag. Stackable
+via something like NVLink or EXA, you could build your own supermodel month by
+month. They'll sell like hotcakes.
+
+*** Privacy as an historical accident
+Privacy was a temporary accident of analog life. The power dynamics of
+surveillance were always based on scarcity: scarce video, scarce audio, scarce
+analyst attention. Ubiquitous infrastructure solves the first two. AI solves the
+third. We will carry devices recording everything we and everyone around us ever
+said or did. It will be like being passively tagged on Facebook to the nth
+power. The distributed angle actually helps: when everyone can see everything,
+the panopticon loses its asymmetry. No single entity owns the feed. Social
+acceptance follows naturally, titillating our gossipy and voyeuristic instincts.
+
+*** Late Binding, Lifted
+Late binding delays semantic resolution from compile time to runtime, trading
+certainty for flexibility. Automatic code generation applies the same principle
+one abstraction layer up: instead of delaying the resolution of a name or a
+type, you delay the resolution of the concept itself. Store the prompt, not the
+program. The idea gets resolved into code only when needed, shaped by the
+context at generation time. Same design principle, higher rung on the ladder.
+
+*** Robotics, and then land
+We still don't know if LLMs will scale to the physical world the way they scaled
+to language and programming. Maybe we'll need World Models, as LeCun argues. But
+the gates are open. Machines navigating human spaces and manipulating human
+objects will be in such demand that production won't keep up. Soon every family
+will have a Butler robot, a Housekeeper robot, a Personal Chef robot, a Doctor
+robot. And then a Mason robot, a Carpenter robot, a Farmer robot, a Mechanic
+robot. At that point we'll only need land to be self-sufficient: land comes with
+energy, solar, geothermal, hydro, wind, all waiting to be captured. There'll be
+a robot for that too.
 
 *** Transaction Costs, Hacked
 If the answer is transaction costs, as one of my favourite podcasts argues, AI
@@ -143,44 +161,16 @@ about you.
 *** Fair journalism will be solved
 AI will hunt for facts, correlations, and sources, and write the articles. Your
 personal news agent will then scan everything for bias: partisan omissions,
-loaded wording, agenda-driven framing. All the tricks. Journalism doesn't
-disappear: it gets audited in real time. The spin cycle stops.
+loaded wording, agenda-driven framing. All the tricks. The hard question is who
+trains the bias detector, and on whose definition of bias. But the direction is
+clear: journalism doesn't disappear, it gets audited in real time. The spin
+cycle stops.
 
 *** The Last Currencies
 Future economic autonomous agents won't need dollars or euros. Energy and
 knowledge are self-backing: they have intrinsic worth, they are transferable,
-they are fungible. No central authority required. In some cases,
-proof-of-work-like demonstrations will act as escrow: proving that certain
-knowledge has a certain value before the knowledge itself is transmitted. The
-currency is the thing is the currency.
-
-*** Privacy as an historical accident
-Privacy was a temporary accident of analog life. The power dynamics of
-surveillance were always based on scarcity: scarce video, scarce audio, scarce
-analyst attention. Ubiquitous infrastructure solves the first two. AI solves the
-third. We will carry devices recording everything we and everyone around us ever
-said or did. It will be like being passively tagged on Facebook to the nth
-power. The distributed angle actually helps: when everyone can see everything,
-the panopticon loses its asymmetry. No single entity owns the feed. Social
-acceptance follows naturally, titillating our gossipy and voyeuristic instincts.
-
-*** Late Binding, Lifted
-Late binding delays semantic resolution from compile time to runtime, trading
-certainty for flexibility. Automatic code generation applies the same principle
-one abstraction layer up: instead of delaying the resolution of a name or a
-type, you delay the resolution of the concept itself. Store the prompt, not the
-program. The idea gets resolved into code only when needed, shaped by the
-context at generation time. Same design principle, higher rung on the ladder.
-
-*** Low background text
-Some specialized particle detectors need metal without any trace of
-radiation. The problem is that any metallurgic product fabricated after the
-Second World War is contaminated. Scientists are then forced to [[https://en.wikipedia.org/wiki/Low-background_steel][recover steel
-and other metals from underwater shipwrecks]], where the water above shielded the
-metal from radiation. All this preamble to say that LLMs have contaminated all
-the available text in the world, a language fallout of sorts. Scientists will
-need to recover as much text as possible produced before the advent of ChatGPT
-to have a realistic view of what human language really is.
+they are fungible. No central authority required. The currency is the thing is
+the currency.
 
 *** Language Systems will substitute Operating Systems
 It's the natural consequence [[https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/][when software writes itself]].
