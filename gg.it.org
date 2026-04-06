@@ -179,14 +179,14 @@ This post could have been named in many different ways. Here are a couple of
 titles I considered and rejected:
 
 - Thoughts about AI and LLMs in the early months of 2026
-- Observation from the present future
+- Observations from the present future
 - As it becomes real
 - Science fiction in the making
 
 I wanted to express the feeling that we are living something that is more than
-'times of change'. I like the title "Notes from the Curve" because it's evocative,
-science-fiction-y, and conveys the idea that we are riding an exponential curve,
-like cyberpunks in a Gibson's novel. How cool, eh?
+'times of change'. I like the title "Notes from the Curve" because it's
+evocative, science-fiction-ish, and conveys the idea that we are riding an
+exponential curve, like cyberpunks in a Gibson novel. How cool, eh?
 
 ** Boot, Prompt, Run: what happens to personal computing when software writes itself :ai:llm:computing:programming:
 :PROPERTIES:
