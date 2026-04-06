@@ -80,7 +80,7 @@ now. Our world is going to change in ways we can hardly imagine. The following
 notes are some of those ways.
 
 *** AI will eat Software
-Just like software ate everything else, AI will permeate and tranform both the
+Just like software ate everything else, AI will permeate and transform both the
 digital and physical world, taking software's place as the default operating
 substrate.
 
@@ -97,7 +97,7 @@ robot, a Doctor robot. Maybe they'll all be the same robot. Doesn't matter.
 But just after that, we'll want a Mason robot, a Blacksmith robot, a Carpenter
 robot, a Farmer robot, a Shepherd robot, a Mechanic robot. At that point we will
 only need land to be self-sufficient. Land comes with energy: solar, geothermal,
-hydro, wind — all waiting to be captured. We'll build our own small solar farm,
+hydro, wind, all waiting to be captured. We'll build our own small solar farm,
 wind farm, geo farm. There'll be a robot for that too.
 
 *** The Raspberry Pi moment for AI is yet to come
@@ -124,7 +124,7 @@ into a simpler architecture. That distilled model will run on a phone or a
 datacenter indifferently: the only difference being computation time and context
 size. This is a possible Raspberry Pi moment.
 
-*** Transaction Costs, Hacked.
+*** Transaction Costs, Hacked
 If the answer is transaction costs, as one of my favourite podcasts argues, AI
 will bring them down by transacting on your behalf, knowing every psychological
 technique, every salesman trick, and immune to all of them. An AI will buy you a
@@ -144,7 +144,7 @@ about you.
 AI will hunt for facts, correlations, and sources, and write the articles. Your
 personal news agent will then scan everything for bias: partisan omissions,
 loaded wording, agenda-driven framing. All the tricks. Journalism doesn't
-disappear; it gets audited in real time. The spin cycle stops.
+disappear: it gets audited in real time. The spin cycle stops.
 
 *** The Last Currencies
 Future economic autonomous agents won't need dollars or euros. Energy and
