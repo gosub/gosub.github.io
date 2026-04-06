@@ -139,7 +139,7 @@ proof-of-work-like demonstrations will act as escrow: proving that certain
 knowledge has a certain value before the knowledge itself is transmitted. The
 currency is the thing is the currency.
 
-*** Privacy was an historical acciden
+*** Privacy as an historical accident
 Privacy was a temporary accident of analog life. The power dynamics of
 surveillance were always based on scarcity: scarce video, scarce audio, scarce
 analyst attention. Ubiquitous infrastructure solves the first two. AI solves the
