@@ -149,7 +149,13 @@ power. The distributed angle actually helps: when everyone can see everything,
 the panopticon loses its asymmetry. No single entity owns the feed. Social
 acceptance follows naturally, titillating our gossipy and voyeuristic instincts.
 
-*** Automatic Code Generation is the extreme form of Late Binding
+*** Late Binding, Lifted
+Late binding delays semantic resolution from compile time to runtime, trading
+certainty for flexibility. Automatic code generation applies the same principle
+one abstraction layer up: instead of delaying the resolution of a name or a
+type, you delay the resolution of the concept itself. Store the prompt, not the
+program. The idea gets resolved into code only when needed, shaped by the
+context at generation time. Same design principle, higher rung on the ladder.
 
 *** Low background text
 There are some specialized particle detectors that need metal without any trace
