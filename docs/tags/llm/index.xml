@@ -6,8 +6,15 @@
     <description>Recent content in llm on Giampaolo Guiducci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Mar 2026 08:20:22 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 14:55:23 +0200</lastBuildDate>
     <atom:link href="https://giampaolo.guiducci.it/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes from the Curve</title>
+      <link>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</link>
+      <pubDate>Sun, 29 Mar 2026 14:55:23 +0200</pubDate>
+      <guid>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always wondered what it would have been like to live in the early years of&#xA;the last century, while relativity and quantum physics were rewriting what we&#xA;thought possible. My not-so-original take: we are in an analogous situation&#xA;now. Our world is going to change in ways we can hardly imagine. The following&#xA;notes are some of those ways.&lt;/p&gt;&#xA;&lt;h2 id=&#34;low-background-text&#34;&gt;Low background text&lt;/h2&gt;&#xA;&lt;p&gt;Some specialized particle detectors need metal without any trace of&#xA;radiation. The problem is that any metallurgic product fabricated after the&#xA;Second World War is contaminated. Scientists are then forced to &lt;a href=&#34;https://en.wikipedia.org/wiki/Low-background_steel&#34;&gt;recover steel&#xA;and other metals from underwater shipwrecks&lt;/a&gt;, where the water above shielded the&#xA;metal from radiation. All this preamble to say that LLMs have contaminated all&#xA;the available text in the world, a language fallout of sorts. Scientists will&#xA;need to recover as much text as possible produced before the advent of ChatGPT&#xA;to have a realistic view of what human language really is.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Boot, Prompt, Run: what happens to personal computing when software writes itself</title>
       <link>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</link>
