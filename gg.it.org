@@ -190,18 +190,10 @@ This is tongue-in-cheek, but if things take a turn for the worst, future dates
 will be described as /before ChatGPT/ (bC) and /after ChatGPT/ (aC).
 
 *** Epilogue
-This post could have been named in many different ways. Here are a couple of
-titles I considered and rejected:
-
-- Thoughts about AI and LLMs in the early months of 2026
-- Observations from the present future
-- As it becomes real
-- Science fiction in the making
-
-I wanted to express the feeling that we are living something that is more than
-'times of change'. I like the title "Notes from the Curve" because it's
-evocative, science-fiction-ish, and conveys the idea that we are riding an
-exponential curve, like cyberpunks in a Gibson novel. How cool, eh?
+This post could have been named in many different ways. I believe that the
+current title expresses the feeling clearly: we are witnessing science fiction
+in the making. These are something more than 'times of change'. Here we are
+riding an exponential curve, like cyberpunks in a Gibson novel. How cool, eh?
 
 ** Boot, Prompt, Run: what happens to personal computing when software writes itself :ai:llm:computing:programming:
 :PROPERTIES:
