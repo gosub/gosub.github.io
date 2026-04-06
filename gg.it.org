@@ -139,7 +139,16 @@ proof-of-work-like demonstrations will act as escrow: proving that certain
 knowledge has a certain value before the knowledge itself is transmitted. The
 currency is the thing is the currency.
 
-*** mass surveillance will be public and distributed, privacy will be an old 20th century concept
+*** Privacy was an historical acciden
+Privacy was a temporary accident of analog life. The power dynamics of
+surveillance were always based on scarcity: scarce video, scarce audio, scarce
+analyst attention. Ubiquitous infrastructure solves the first two. AI solves the
+third. We will carry devices recording everything we and everyone around us ever
+said or did. It will be like being passively tagged on Facebook to the nth
+power. The distributed angle actually helps: when everyone can see everything,
+the panopticon loses its asymmetry. No single entity owns the feed. Social
+acceptance follows naturally, titillating our gossipy and voyeuristic instincts.
+
 *** Automatic Code Generation is the extreme form of Late Binding
 
 *** Low background text
