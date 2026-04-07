@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://giampaolo.guiducci.it/tags/ai/</loc>
-    <lastmod>2026-03-29T14:55:23+02:00</lastmod>
-  </url><url>
     <loc>https://giampaolo.guiducci.it/</loc>
+    <lastmod>2026-04-07T08:29:33+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
+    <lastmod>2026-04-07T08:29:33+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/2026-04-07-mixpost-2026w15/</loc>
+    <lastmod>2026-04-07T08:29:33+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/</loc>
+    <lastmod>2026-04-07T08:29:33+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/</loc>
+    <lastmod>2026-04-07T08:29:33+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/ai/</loc>
     <lastmod>2026-03-29T14:55:23+02:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/llm/</loc>
     <lastmod>2026-03-29T14:55:23+02:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</loc>
-    <lastmod>2026-03-29T14:55:23+02:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/</loc>
-    <lastmod>2026-03-29T14:55:23+02:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/</loc>
     <lastmod>2026-03-29T14:55:23+02:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</loc>
@@ -52,9 +58,6 @@
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/pamphlet/</loc>
     <lastmod>2026-02-25T11:27:00+01:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
-    <lastmod>2026-02-16T20:33:27+01:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</loc>
     <lastmod>2026-02-16T20:33:27+01:00</lastmod>
