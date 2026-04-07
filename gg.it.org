@@ -67,6 +67,21 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** mixpost 2026W15 :mixpost:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-04-07-mixpost-2026W15
+:EXPORT_DATE: 2026-04-07T08:29:33+02:00
+:END:
+
+1. [[https://www.youtube.com/watch?v=a8wLHhFfkjg][Model/Actriz - Glassman]]
+2. [[https://www.youtube.com/watch?v=1orn0ofkpO8][Militarie Gun - Though You Were Waiving]]
+3. [[https://www.youtube.com/watch?v=FD5hmkcXLnI][Hitohira - en]]
+4. [[https://www.youtube.com/watch?v=0Ssi-9wS1so][Angine de Poitrine - Full Performance (Live on KEXP)]]
+5. [[https://www.youtube.com/watch?v=afhy9n3e-uQ][Tiffany Day - EVERYTHING I'VE EVER WANTED]]
+6. [[https://www.youtube.com/watch?v=FlVRTdrRnFU][Alewya - Eshi]]
+
+[[https://www.youtube.com/watch_videos?video_ids=a8wLHhFfkjg,1orn0ofkpO8,FD5hmkcXLnI,0Ssi-9wS1so,afhy9n3e-uQ,FlVRTdrRnFU][2026W15 YouTube playlist]]
+
 ** Notes from the Curve :ai:llm:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-03-29-notes-from-the-curve
