@@ -1247,6 +1247,8 @@ uninvited guests. But at least now I have a corner of it that is truly mine.
 8. [[https://www.youtube.com/watch?v=uc5NSUrnF70][Fred Again... & Jamie T - Lights Burn Dimmer]]
 9. [[https://www.youtube.com/watch?v=Hq2y9iAaHC4][little image - KILL THE GHOST]]
 
+[[https://www.youtube.com/watch_videos?video_ids=yPt3-lB5Lsc,neglkknTYB4,fV8bKLHKLYI,PUf9_1jsCyY,c5kM3iwYVi0,t3ObX0H7-Xc,Id-ZDSp1Cro,uc5NSUrnF70,Hq2y9iAaHC4][2026W08 YouTube playlist]]
+
 ** All the papers cited in Andrej Karpathy's YouTube videos :ai:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-02-09-karpathy-video-papers
@@ -1515,6 +1517,8 @@ there, ready to be discovered.
 3. [[https://www.youtube.com/watch?v=yf5Yp2WjQ5M][Endeless Dive - Above the Trees]]
 4. [[https://www.youtube.com/watch?v=jTv8-DWWW3I][Explosions in the Sky - Moving On]]
 5. [[https://www.youtube.com/watch?v=pgCBxvt1I18][AFX - Where's Your Girlfriend?]]
+
+[[https://www.youtube.com/watch_videos?video_ids=QZkgByta4Kg,jmvCwjzpfuk,yf5Yp2WjQ5M,jTv8-DWWW3I,pgCBxvt1I18][2026W01 YouTube playlist]]
 
 ** The People of Emacs are my tribe :emacs:carnival:
 :PROPERTIES:
