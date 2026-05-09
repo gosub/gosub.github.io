@@ -67,9 +67,9 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
-** May I suggest... vibemacsing? :emacs:ai:vibecoding:
+** May I recommend... vibemacsing? :emacs:ai:vibecoding:
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2026-05-09-may-i-suggest-vibemacsing
+:EXPORT_FILE_NAME: 2026-05-09-may-i-recommend-vibemacsing
 :EXPORT_DATE: 2026-05-09T20:21:02+0200
 :END:
 
