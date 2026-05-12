@@ -67,6 +67,21 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** mixpost 2026W20 :mixpost:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-05-12-mixpost-2026W20
+:EXPORT_DATE: 2026-05-12T20:44:26+02:00
+:END:
+
+1. [[https://www.youtube.com/watch?v=ZIl2n3Bslzw][Culture Wars - Don't Speak]]
+2. [[https://www.youtube.com/watch?v=YB6DKK1OwzU][SHXCXCHCXSH - iiijjjiii]]
+3. [[https://www.youtube.com/watch?v=vnIOFl_jt1M][OK Goodnight - 22]]
+4. [[https://www.youtube.com/watch?v=gY1ayBcPIGI][Basement - Head Alight]]
+5. [[https://www.youtube.com/watch?v=YozZog5DRzI][State Faults - Wildfires]]
+6. [[https://www.youtube.com/watch?v=dnZAedxwVlQ][Autechre - Altibizz]]
+
+[[https://www.youtube.com/watch_videos?video_ids=ZIl2n3Bslzw,YB6DKK1OwzU,vnIOFl_jt1M,gY1ayBcPIGI,YozZog5DRzI,dnZAedxwVlQ][2026W20 YouTube playlist]]
+
 ** May I recommend... vibemacsing? :emacs:ai:vibecoding:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-05-09-may-i-recommend-vibemacsing
