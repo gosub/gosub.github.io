@@ -67,7 +67,7 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
-** Do Not Come :supercollider:creative-coding:short-fiction:
+** Do Not Come :supercollider:creative_coding:short_fiction:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-05-18-do-not-come
 :EXPORT_DATE: 2026-05-18T08:15:21+0200
