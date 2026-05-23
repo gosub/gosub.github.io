@@ -67,6 +67,54 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** Recompiling my family-name coat of arms :guiducci:svg:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-05-23-recompiling-my-family-name-coat-of-arms
+:EXPORT_DATE: 2026-05-23T10:44:46+0200
+:END:
+I had always vaguely known that my family name has Tuscan roots. There was a
+Mario Guiducci, for instance, a friend and pupil of Galileo who in 1619 put his
+name to a /Discourse on Comets/, a treatise that, as it happens, was largely
+written by Galileo himself. One evening I found myself thinking about this
+again, and doing some idle research online I stumbled into the various coats of
+arms attached to the name. I was fascinated by them, not because I believe in
+noble blood or want to claim any, but because the idea of having an image tied
+to my name, a logo, somehow made my own lineage feel concrete.
+
+It turns out my family name has gone through several rebrandings. The one I felt
+most connected to belongs to the Guiducci da Mana del Lion Nero, of Florence: a
+shield split down the middle, vair of silver and blue on one side, a red and
+gold checkerboard on the other, and in the center a small white escutcheon with
+the Florentine lily. I have no evidence whatsoever that it's *my* branch. I
+might descend from this family, from the Guiducci of Empoli who carry completely
+different arms, or from neither. It wouldn't be the first time in history that
+someone claimed a lineage that wasn't theirs, and at least I'm saying so up
+front.
+
+What I found online, though, was a tiny, blurry image on a heraldry site that
+might not exist in ten years. So I decided to redraw it as a clean vector file.
+It felt like a small act of digital preservation: a 120-pixel scan rots, an SVG
+doesn't, and anyone who wants it can take it, modify it, recolor it.
+
+The blazon, the formal description of the arms, is essentially source code.
+"Partito: nel primo, vaiato di argento e di azzurro; nel secondo, scaccato di
+rosso e di oro" is not a poetic phrase: it's drawing instructions. Two heralds
+in two different centuries, starting from the same text, will draw the same
+recognizable shield. There was something surprisingly fitting, then, about
+taking this twelfth-century source code and recompiling it into the source code
+of the twenty-first: an SVG, the Latin of vector graphics. And then putting the
+result under version control, which is just our way of doing what the heralds
+were already doing, keeping a description precise enough that anyone can redraw
+it.
+
+If you happen to be called Guiducci and ended up here searching your own
+surname: hello. We're probably related, in the loose way that anyone sharing a
+name is. I put everything in a repository under a free license. If you're
+interested in the technical details, I wrote up how I reconstructed it in the
+README: [[https://github.com/gosub/guiducci-coat-of-arms][github.com/gosub/guiducci-coat-of-arms]]
+
+P.S. If you ever find yourself in Fiesole, go look at Palazzo Pretorio and
+search among the carved stones on the facade.
 ** Do Not Come :supercollider:creative_coding:short_fiction:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-05-18-do-not-come
