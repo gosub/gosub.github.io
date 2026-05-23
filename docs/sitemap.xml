@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://giampaolo.guiducci.it/</loc>
+    <lastmod>2026-05-23T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/guiducci/</loc>
+    <lastmod>2026-05-23T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/</loc>
+    <lastmod>2026-05-23T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/posts/2026-05-23-recompiling-my-family-name-coat-of-arms/</loc>
+    <lastmod>2026-05-23T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/svg/</loc>
+    <lastmod>2026-05-23T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://giampaolo.guiducci.it/tags/</loc>
+    <lastmod>2026-05-23T00:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://giampaolo.guiducci.it/tags/creative-coding/</loc>
     <lastmod>2026-05-18T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</loc>
     <lastmod>2026-05-18T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://giampaolo.guiducci.it/</loc>
-    <lastmod>2026-05-18T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/posts/</loc>
-    <lastmod>2026-05-18T00:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://giampaolo.guiducci.it/tags/short-fiction/</loc>
     <lastmod>2026-05-18T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/supercollider/</loc>
-    <lastmod>2026-05-18T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://giampaolo.guiducci.it/tags/</loc>
     <lastmod>2026-05-18T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://giampaolo.guiducci.it/tags/mixpost/</loc>
