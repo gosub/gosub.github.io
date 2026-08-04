@@ -67,6 +67,22 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** mixpost 2026W32 :mixpost:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-08-04-mixpost-2026w32
+:EXPORT_DATE: 2026-08-04T17:22:55+0200
+:END:
+
+1. [[https://www.youtube.com/watch?v=qmSCuWJZo00][Tigran Hamasyan - Red, White and Black Worlds]
+2. [[https://www.youtube.com/watch?v=4rL3ATRkeKw][Anna von Hausswolff - Struggle With the Beast]
+3. [[https://www.youtube.com/watch?v=Ki9S6npZeV4][Fjørt - ær // mir]
+4. [[https://www.youtube.com/watch?v=Tu9KgGqXDyw][Title Fight - Head in The Ceiling Fan]
+5. [[https://www.youtube.com/watch?v=mhqN0xVAAzQ][Daniel Avery - Lemon]
+6. [[https://www.youtube.com/watch?v=hK5FuEMdVho][Fiddlehead - Baby I'll Change]
+7. [[https://www.youtube.com/watch?v=2_3dfvNYFik][Shellac - Pull The Cap]
+
+[[https://www.youtube.com/watch_videos?video_ids=qmSCuWJZo00,4rL3ATRkeKw,Ki9S6npZeV4,Tu9KgGqXDyw,mhqN0xVAAzQ,hK5FuEMdVho,2_3dfvNYFik][2026W32 YouTube playlist]]
+
 ** Recompiling my family-name coat of arms :guiducci:svg:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-05-23-recompiling-my-family-name-coat-of-arms
