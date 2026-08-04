@@ -81,7 +81,7 @@ giampaolo.guiducci.it
 6. [[https://www.youtube.com/watch?v=hK5FuEMdVho][Fiddlehead - Baby I'll Change]]
 7. [[https://www.youtube.com/watch?v=2_3dfvNYFik][Shellac - Pull The Cap]]
 
-[[https://www.youtube.com/watch_videos?video_ids=qmSCuWJZo00,4rL3ATRkeKw,Ki9S6npZeV4,Tu9KgGqXDyw,mhqN0xVAAzQ,hK5FuEMdVho,2_3dfvNYFik][2026W32 YouTube playlist]]]
+[[https://www.youtube.com/watch_videos?video_ids=qmSCuWJZo00,4rL3ATRkeKw,Ki9S6npZeV4,Tu9KgGqXDyw,mhqN0xVAAzQ,hK5FuEMdVho,2_3dfvNYFik][2026W32 YouTube playlist]]
 
 ** Recompiling my family-name coat of arms :guiducci:svg:
 :PROPERTIES:
