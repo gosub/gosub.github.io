@@ -1,187 +1,192 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tags on Giampaolo Guiducci</title>
-    <link>https://giampaolo.guiducci.it/tags/</link>
-    <description>Recent content in tags on Giampaolo Guiducci</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0200</lastBuildDate>
-    <atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>guiducci</title>
-      <link>https://giampaolo.guiducci.it/tags/guiducci/</link>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/guiducci/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>svg</title>
-      <link>https://giampaolo.guiducci.it/tags/svg/</link>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/svg/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>creative-coding</title>
-      <link>https://giampaolo.guiducci.it/tags/creative-coding/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/creative-coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>short-fiction</title>
-      <link>https://giampaolo.guiducci.it/tags/short-fiction/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/short-fiction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>supercollider</title>
-      <link>https://giampaolo.guiducci.it/tags/supercollider/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/supercollider/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>mixpost</title>
-      <link>https://giampaolo.guiducci.it/tags/mixpost/</link>
-      <pubDate>Tue, 12 May 2026 20:44:26 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/mixpost/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ai</title>
-      <link>https://giampaolo.guiducci.it/tags/ai/</link>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>emacs</title>
-      <link>https://giampaolo.guiducci.it/tags/emacs/</link>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/emacs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>vibecoding</title>
-      <link>https://giampaolo.guiducci.it/tags/vibecoding/</link>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/vibecoding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>llm</title>
-      <link>https://giampaolo.guiducci.it/tags/llm/</link>
-      <pubDate>Sun, 29 Mar 2026 14:55:23 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>computing</title>
-      <link>https://giampaolo.guiducci.it/tags/computing/</link>
-      <pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/computing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>programming</title>
-      <link>https://giampaolo.guiducci.it/tags/programming/</link>
-      <pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>haskell</title>
-      <link>https://giampaolo.guiducci.it/tags/haskell/</link>
-      <pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/haskell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>livecoding</title>
-      <link>https://giampaolo.guiducci.it/tags/livecoding/</link>
-      <pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/livecoding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>tidalcycles</title>
-      <link>https://giampaolo.guiducci.it/tags/tidalcycles/</link>
-      <pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/tidalcycles/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>home</title>
-      <link>https://giampaolo.guiducci.it/tags/home/</link>
-      <pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/home/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>linux</title>
-      <link>https://giampaolo.guiducci.it/tags/linux/</link>
-      <pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>pamphlet</title>
-      <link>https://giampaolo.guiducci.it/tags/pamphlet/</link>
-      <pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/pamphlet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>xor</title>
-      <link>https://giampaolo.guiducci.it/tags/xor/</link>
-      <pubDate>Mon, 05 Jan 2026 18:45:20 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/xor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>carnival</title>
-      <link>https://giampaolo.guiducci.it/tags/carnival/</link>
-      <pubDate>Tue, 02 Dec 2025 21:34:52 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/carnival/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>idea</title>
-      <link>https://giampaolo.guiducci.it/tags/idea/</link>
-      <pubDate>Fri, 03 Jan 2025 16:10:38 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/idea/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>der-acapulco</title>
-      <link>https://giampaolo.guiducci.it/tags/der-acapulco/</link>
-      <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/der-acapulco/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>diy</title>
-      <link>https://giampaolo.guiducci.it/tags/diy/</link>
-      <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/diy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>stompbox</title>
-      <link>https://giampaolo.guiducci.it/tags/stompbox/</link>
-      <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/stompbox/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>behringer-edge</title>
-      <link>https://giampaolo.guiducci.it/tags/behringer-edge/</link>
-      <pubDate>Sat, 28 Dec 2024 16:33:35 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/tags/behringer-edge/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>tags on Giampaolo Guiducci</title>
+		<link>https://giampaolo.guiducci.it/tags/</link>
+		<description>Recent content in tags on Giampaolo Guiducci</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>mixpost</title>
+				<link>https://giampaolo.guiducci.it/tags/mixpost/</link>
+				<pubDate>Tue, 04 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/mixpost/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>guiducci</title>
+				<link>https://giampaolo.guiducci.it/tags/guiducci/</link>
+				<pubDate>Sat, 23 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/guiducci/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>svg</title>
+				<link>https://giampaolo.guiducci.it/tags/svg/</link>
+				<pubDate>Sat, 23 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/svg/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>creative-coding</title>
+				<link>https://giampaolo.guiducci.it/tags/creative-coding/</link>
+				<pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/creative-coding/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>short-fiction</title>
+				<link>https://giampaolo.guiducci.it/tags/short-fiction/</link>
+				<pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/short-fiction/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>supercollider</title>
+				<link>https://giampaolo.guiducci.it/tags/supercollider/</link>
+				<pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/supercollider/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>ai</title>
+				<link>https://giampaolo.guiducci.it/tags/ai/</link>
+				<pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>emacs</title>
+				<link>https://giampaolo.guiducci.it/tags/emacs/</link>
+				<pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/emacs/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>vibecoding</title>
+				<link>https://giampaolo.guiducci.it/tags/vibecoding/</link>
+				<pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/vibecoding/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>llm</title>
+				<link>https://giampaolo.guiducci.it/tags/llm/</link>
+				<pubDate>Sun, 29 Mar 2026 14:55:23 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/llm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>computing</title>
+				<link>https://giampaolo.guiducci.it/tags/computing/</link>
+				<pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/computing/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>programming</title>
+				<link>https://giampaolo.guiducci.it/tags/programming/</link>
+				<pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/programming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>haskell</title>
+				<link>https://giampaolo.guiducci.it/tags/haskell/</link>
+				<pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/haskell/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>livecoding</title>
+				<link>https://giampaolo.guiducci.it/tags/livecoding/</link>
+				<pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/livecoding/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>tidalcycles</title>
+				<link>https://giampaolo.guiducci.it/tags/tidalcycles/</link>
+				<pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/tidalcycles/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>home</title>
+				<link>https://giampaolo.guiducci.it/tags/home/</link>
+				<pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/home/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>linux</title>
+				<link>https://giampaolo.guiducci.it/tags/linux/</link>
+				<pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>pamphlet</title>
+				<link>https://giampaolo.guiducci.it/tags/pamphlet/</link>
+				<pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/pamphlet/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>xor</title>
+				<link>https://giampaolo.guiducci.it/tags/xor/</link>
+				<pubDate>Mon, 05 Jan 2026 18:45:20 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/xor/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>carnival</title>
+				<link>https://giampaolo.guiducci.it/tags/carnival/</link>
+				<pubDate>Tue, 02 Dec 2025 21:34:52 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/carnival/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>idea</title>
+				<link>https://giampaolo.guiducci.it/tags/idea/</link>
+				<pubDate>Fri, 03 Jan 2025 16:10:38 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/idea/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>der-acapulco</title>
+				<link>https://giampaolo.guiducci.it/tags/der-acapulco/</link>
+				<pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/der-acapulco/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>diy</title>
+				<link>https://giampaolo.guiducci.it/tags/diy/</link>
+				<pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/diy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>stompbox</title>
+				<link>https://giampaolo.guiducci.it/tags/stompbox/</link>
+				<pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/stompbox/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>behringer-edge</title>
+				<link>https://giampaolo.guiducci.it/tags/behringer-edge/</link>
+				<pubDate>Sat, 28 Dec 2024 16:33:35 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/behringer-edge/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

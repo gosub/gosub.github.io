@@ -15,21 +15,21 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:url" content="https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/">
-  <meta property="og:site_name" content="Giampaolo Guiducci">
-  <meta property="og:title" content="The many faces of the XOR operation">
-  <meta property="og:description" content="XOR has always struck me as the odd one among the logical operators; since I first learned about it, I always felt a strange fascination with it. I think I was taught about it by my father, who cultivated my interest in computers and taught me programming when I was 7. I remember that the AND and OR operations were clear to me, and their use in the logic of a program; on the other hand, XOR seemed esoteric and not really useful, since I could easily program the same behavior with a combination of AND and OR. As I progressed in my programming journey and learned much more, I became aware of the strangeness and power of XOR. In this post, I explore the many interpretations of XOR, and why it deserves a unique appreciation.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-01-05T18:45:20+01:00">
-    <meta property="article:modified_time" content="2026-01-05T18:45:20+01:00">
-    <meta property="article:tag" content="xor">
-    <meta property="article:tag" content="programming">
+	<meta property="og:site_name" content="Giampaolo Guiducci">
+	<meta property="og:title" content="The many faces of the XOR operation">
+	<meta property="og:description" content="XOR has always struck me as the odd one among the logical operators; since I first learned about it, I always felt a strange fascination with it. I think I was taught about it by my father, who cultivated my interest in computers and taught me programming when I was 7. I remember that the AND and OR operations were clear to me, and their use in the logic of a program; on the other hand, XOR seemed esoteric and not really useful, since I could easily program the same behavior with a combination of AND and OR. As I progressed in my programming journey and learned much more, I became aware of the strangeness and power of XOR. In this post, I explore the many interpretations of XOR, and why it deserves a unique appreciation.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-01-05T18:45:20+01:00">
+		<meta property="article:modified_time" content="2026-01-05T18:45:20+01:00">
+		<meta property="article:tag" content="xor">
+		<meta property="article:tag" content="programming">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The many faces of the XOR operation">
-  <meta name="twitter:description" content="XOR has always struck me as the odd one among the logical operators; since I first learned about it, I always felt a strange fascination with it. I think I was taught about it by my father, who cultivated my interest in computers and taught me programming when I was 7. I remember that the AND and OR operations were clear to me, and their use in the logic of a program; on the other hand, XOR seemed esoteric and not really useful, since I could easily program the same behavior with a combination of AND and OR. As I progressed in my programming journey and learned much more, I became aware of the strangeness and power of XOR. In this post, I explore the many interpretations of XOR, and why it deserves a unique appreciation.">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="The many faces of the XOR operation">
+	<meta name="twitter:description" content="XOR has always struck me as the odd one among the logical operators; since I first learned about it, I always felt a strange fascination with it. I think I was taught about it by my father, who cultivated my interest in computers and taught me programming when I was 7. I remember that the AND and OR operations were clear to me, and their use in the logic of a program; on the other hand, XOR seemed esoteric and not really useful, since I could easily program the same behavior with a combination of AND and OR. As I progressed in my programming journey and learned much more, I became aware of the strangeness and power of XOR. In this post, I explore the many interpretations of XOR, and why it deserves a unique appreciation.">
 
   
   
@@ -232,35 +232,35 @@ deserves a unique appreciation.</p>
 one of its two operands is <em>True</em>. It is usually represented with two symbols: ↮
 and ⊕. I prefer ⊕.  Its truth table is:</p>
 <table>
-  <thead>
-      <tr>
-          <th>A</th>
-          <th>B</th>
-          <th>A⊕B</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>F</td>
-          <td>F</td>
-          <td>F</td>
-      </tr>
-      <tr>
-          <td>F</td>
-          <td>T</td>
-          <td>T</td>
-      </tr>
-      <tr>
-          <td>T</td>
-          <td>F</td>
-          <td>T</td>
-      </tr>
-      <tr>
-          <td>T</td>
-          <td>T</td>
-          <td>F</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>A</th>
+					<th>B</th>
+					<th>A⊕B</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>F</td>
+					<td>F</td>
+					<td>F</td>
+			</tr>
+			<tr>
+					<td>F</td>
+					<td>T</td>
+					<td>T</td>
+			</tr>
+			<tr>
+					<td>T</td>
+					<td>F</td>
+					<td>T</td>
+			</tr>
+			<tr>
+					<td>T</td>
+					<td>T</td>
+					<td>F</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="the-basic-interpretation-or-with-exclusion">The basic interpretation: Or, with exclusion</h2>
 <p>In its most literal interpretation, XOR can be seen as an extension of OR. While

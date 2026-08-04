@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>creative-coding on Giampaolo Guiducci</title>
-    <link>https://giampaolo.guiducci.it/tags/creative-coding/</link>
-    <description>Recent content in creative-coding on Giampaolo Guiducci</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0200</lastBuildDate>
-    <atom:link href="https://giampaolo.guiducci.it/tags/creative-coding/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Do Not Come</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</guid>
-      <description>&lt;p&gt;My dear M.M.,&lt;/p&gt;&#xA;&lt;p&gt;generous and distant friend, I have received &lt;a href=&#34;https://sccode.org/1-4S3&#34;&gt;your gift&lt;/a&gt;! What magic lies in this&#xA;Carillon you have bestowed upon me — I am most grateful. You know how dearly I&#xA;love both music and mechanisms, and so this has been the perfect gift. I spent&#xA;hours opening it and closing it, and you can imagine my astonishment when I&#xA;realized it required no winding, no mechanical charge of any kind, and yet it&#xA;could play without cease for hours, then days&amp;hellip; and further, that each time I&#xA;opened it, it would generate a different melody, despite departing always from&#xA;the same fixed selection of notes. What a wonder of craft and of art!&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>creative-coding on Giampaolo Guiducci</title>
+		<link>https://giampaolo.guiducci.it/tags/creative-coding/</link>
+		<description>Recent content in creative-coding on Giampaolo Guiducci</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 18 May 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://giampaolo.guiducci.it/tags/creative-coding/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Do Not Come</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</link>
+				<pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</guid>
+				<description>&lt;p&gt;My dear M.M.,&lt;/p&gt;&#xA;&lt;p&gt;generous and distant friend, I have received &lt;a href=&#34;https://sccode.org/1-4S3&#34;&gt;your gift&lt;/a&gt;! What magic lies in this&#xA;Carillon you have bestowed upon me — I am most grateful. You know how dearly I&#xA;love both music and mechanisms, and so this has been the perfect gift. I spent&#xA;hours opening it and closing it, and you can imagine my astonishment when I&#xA;realized it required no winding, no mechanical charge of any kind, and yet it&#xA;could play without cease for hours, then days&amp;hellip; and further, that each time I&#xA;opened it, it would generate a different melody, despite departing always from&#xA;the same fixed selection of notes. What a wonder of craft and of art!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

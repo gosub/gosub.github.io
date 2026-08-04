@@ -1,132 +1,144 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>posts on Giampaolo Guiducci</title>
-    <link>https://giampaolo.guiducci.it/posts/</link>
-    <description>Recent content in posts on Giampaolo Guiducci</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0200</lastBuildDate>
-    <atom:link href="https://giampaolo.guiducci.it/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Recompiling my family-name coat of arms</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-05-23-recompiling-my-family-name-coat-of-arms/</link>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-05-23-recompiling-my-family-name-coat-of-arms/</guid>
-      <description>&lt;p&gt;I had always vaguely known that my family name has Tuscan roots. There was a&#xA;Mario Guiducci, for instance, a friend and pupil of Galileo who in 1619 put his&#xA;name to a &lt;em&gt;Discourse on Comets&lt;/em&gt;, a treatise that, as it happens, was largely&#xA;written by Galileo himself. One evening I found myself thinking about this&#xA;again, and doing some idle research online I stumbled into the various coats of&#xA;arms attached to the name. I was fascinated by them, not because I believe in&#xA;noble blood or want to claim any, but because the idea of having an image tied&#xA;to my name, a logo, somehow made my own lineage feel concrete.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Do Not Come</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</guid>
-      <description>&lt;p&gt;My dear M.M.,&lt;/p&gt;&#xA;&lt;p&gt;generous and distant friend, I have received &lt;a href=&#34;https://sccode.org/1-4S3&#34;&gt;your gift&lt;/a&gt;! What magic lies in this&#xA;Carillon you have bestowed upon me — I am most grateful. You know how dearly I&#xA;love both music and mechanisms, and so this has been the perfect gift. I spent&#xA;hours opening it and closing it, and you can imagine my astonishment when I&#xA;realized it required no winding, no mechanical charge of any kind, and yet it&#xA;could play without cease for hours, then days&amp;hellip; and further, that each time I&#xA;opened it, it would generate a different melody, despite departing always from&#xA;the same fixed selection of notes. What a wonder of craft and of art!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>mixpost 2026W20</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-05-12-mixpost-2026w20/</link>
-      <pubDate>Tue, 12 May 2026 20:44:26 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-05-12-mixpost-2026w20/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZIl2n3Bslzw&#34;&gt;Culture Wars - Don&amp;rsquo;t Speak&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YB6DKK1OwzU&#34;&gt;SHXCXCHCXSH - iiijjjiii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vnIOFl_jt1M&#34;&gt;OK Goodnight - 22&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gY1ayBcPIGI&#34;&gt;Basement - Head Alight&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YozZog5DRzI&#34;&gt;State Faults - Wildfires&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=dnZAedxwVlQ&#34;&gt;Autechre - Altibizz&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=ZIl2n3Bslzw,YB6DKK1OwzU,vnIOFl_jt1M,gY1ayBcPIGI,YozZog5DRzI,dnZAedxwVlQ&#34;&gt;2026W20 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>May I recommend… vibemacsing?</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-05-09-may-i-recommend-vibemacsing/</link>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-05-09-may-i-recommend-vibemacsing/</guid>
-      <description>&lt;p&gt;Over the last couple of years, I&amp;rsquo;ve been using my own eval test to gauge the&#xA;coding capabilities of frontier LLMs. Obviously, the test involves Emacs. The&#xA;test: write a function that marks the text rectangle under the cursor. At first&#xA;glance, it seems like a simple test, but in reality it has a whole series of&#xA;subtleties: it must use mark-rectangle and not a simple set-mark, it must find&#xA;the rectangle&amp;rsquo;s vertical and horizontal boundaries (bounded by whitespace, empty&#xA;lines, or buffer start/end), and it must handle text rectangles made of lines of&#xA;different sizes. My example use case is trivial: have a series of lines with&#xA;hostname, IP address, and netmask separated into columns with whitespace, place&#xA;the cursor on an IP address, and select them all with a single command,&#xA;excluding the other columns. I tried for several months, but no LLM produced a&#xA;correct function. Then, in January of this year, something changed: Claude Code&#xA;generated &lt;a href=&#34;https://github.com/gosub/.emacs.d/blob/master/gg-lisp/mark-column-rectangle.el&#34;&gt;what I had imagined on the first try&lt;/a&gt;. That was a turning point: I&#xA;realized that the code generated by LLMs could compete with, and potentially&#xA;surpass, what we humans write.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>mixpost 2026W15</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-04-07-mixpost-2026w15/</link>
-      <pubDate>Tue, 07 Apr 2026 08:29:33 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-04-07-mixpost-2026w15/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=a8wLHhFfkjg&#34;&gt;Model/Actriz - Glassman&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1orn0ofkpO8&#34;&gt;Militarie Gun - Though You Were Waiving&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FD5hmkcXLnI&#34;&gt;Hitohira - en&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0Ssi-9wS1so&#34;&gt;Angine de Poitrine - Full Performance (Live on KEXP)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=afhy9n3e-uQ&#34;&gt;Tiffany Day - EVERYTHING I&amp;rsquo;VE EVER WANTED&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FlVRTdrRnFU&#34;&gt;Alewya - Eshi&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=a8wLHhFfkjg,1orn0ofkpO8,FD5hmkcXLnI,0Ssi-9wS1so,afhy9n3e-uQ,FlVRTdrRnFU&#34;&gt;2026W15 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Notes from the Curve</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</link>
-      <pubDate>Sun, 29 Mar 2026 14:55:23 +0200</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always wondered what it would have been like to live in the early years of&#xA;the last century, while relativity and quantum physics were rewriting what we&#xA;thought possible. My not-so-original take: we are in an analogous situation&#xA;now. Our world is going to change in ways we can hardly imagine. The following&#xA;notes are some of those ways.&lt;/p&gt;&#xA;&lt;h2 id=&#34;low-background-text&#34;&gt;Low background text&lt;/h2&gt;&#xA;&lt;p&gt;Some specialized particle detectors need metal without any trace of&#xA;radiation. The problem is that any metallurgic product fabricated after the&#xA;Second World War is contaminated. Scientists are then forced to &lt;a href=&#34;https://en.wikipedia.org/wiki/Low-background_steel&#34;&gt;recover steel&#xA;and other metals from underwater shipwrecks&lt;/a&gt;, where the water above shielded the&#xA;metal from radiation. All this preamble to say that LLMs have contaminated all&#xA;the available text in the world, a language fallout of sorts. Scientists will&#xA;need to recover as much text as possible produced before the advent of ChatGPT&#xA;to have a realistic view of what human language really is.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Boot, Prompt, Run: what happens to personal computing when software writes itself</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</link>
-      <pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</guid>
-      <description>&lt;p&gt;Imagine turning on a computer. There is no operating system, no desktop, no&#xA;apps. The machine holds just enough code to make a single HTTPS call. It&#xA;reaches out to a remote LLM, describes its hardware, and asks for a system.&#xA;Seconds later, it is running one: built from scratch, tailored to this specific&#xA;machine and this specific user. Nothing was installed. Nothing needs to be&#xA;stored. The software was conjured into existence and will vanish when the power&#xA;goes off, if you want it to.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A mareal is a collection of tides</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-03-04-a-mareal-is-a-collection-of-tides/</link>
-      <pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-03-04-a-mareal-is-a-collection-of-tides/</guid>
-      <description>&lt;p&gt;Many moons ago I was really into live-coding, the practice of creating&#xA;electronic music in real time with a programming language. I never performed, but&#xA;I played extensively with many live-coding tools: Csound, SuperCollider and my&#xA;favourite, Tidal Cycles (aka Tidal).&lt;/p&gt;&#xA;&lt;p&gt;Tidal Cycles is a Haskell library that can be used in a text editor or a REPL to&#xA;create musical patterns that are then rendered to audio with SuperCollider. I&#xA;was struck by the beauty of it: leveraging functional programming to create&#xA;music while &lt;em&gt;composing&lt;/em&gt; functions.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Against Programs That Violate Your $HOME</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</link>
-      <pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</guid>
-      <description>&lt;p&gt;I think of my home folder as a physical space. A room where I keep the stuff I&#xA;care about. There is a class of programs that enter this room without knocking&#xA;on the door and think that dumping their dirty laundry on my floor is perfectly&#xA;fine.&lt;/p&gt;&#xA;&lt;p&gt;Watching my space being polluted by applications that carelessly scatter their&#xA;dotfiles and directories everywhere, when a well-known standard (XDG) and&#xA;dedicated subfolders exist for exactly this purpose (&lt;code&gt;.cache&lt;/code&gt;, &lt;code&gt;.config&lt;/code&gt;,&#xA;&lt;code&gt;.local&lt;/code&gt;, and so on), feels like a violation of my personal space.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>mixpost 2026W08</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</link>
-      <pubDate>Mon, 16 Feb 2026 20:33:27 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yPt3-lB5Lsc&#34;&gt;Joy Division - Shadowplay&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=neglkknTYB4&#34;&gt;James Blake - Death of Love (Live)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fV8bKLHKLYI&#34;&gt;Joji - Last of a Dying Breed / Dior&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PUf9_1jsCyY&#34;&gt;Russian Circles - Gnosis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=c5kM3iwYVi0&#34;&gt;LCD Soundsystem - New York I Love You, But You&amp;rsquo;re Bringing Me Down&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=t3ObX0H7-Xc&#34;&gt;Mei Semones - Inaka&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Id-ZDSp1Cro&#34;&gt;Flea - Thinkin &amp;lsquo;Bout You&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uc5NSUrnF70&#34;&gt;Fred Again&amp;hellip; &amp;amp; Jamie T - Lights Burn Dimmer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Hq2y9iAaHC4&#34;&gt;little image - KILL THE GHOST&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=yPt3-lB5Lsc,neglkknTYB4,fV8bKLHKLYI,PUf9_1jsCyY,c5kM3iwYVi0,t3ObX0H7-Xc,Id-ZDSp1Cro,uc5NSUrnF70,Hq2y9iAaHC4&#34;&gt;2026W08 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>All the papers cited in Andrej Karpathy&#39;s YouTube videos</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</link>
-      <pubDate>Mon, 09 Feb 2026 20:51:32 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been following &lt;a href=&#34;https://www.youtube.com/@AndrejKarpathy/videos&#34;&gt;Andrej Karpathy&amp;rsquo;s YouTube channel&lt;/a&gt; for a long time, and he&#xA;made me want to dive deep into AI, Neural Networks and LLMs. His videos are&#xA;interesting, precise and engaging, and they pushed me to read primary sources,&#xA;i.e. papers and articles. I&amp;rsquo;ve collected here all the papers that were mentioned&#xA;in the various videos, as a personal reminder to read them all.&lt;/p&gt;&#xA;&lt;p&gt;Since I&amp;rsquo;ve already seen all the videos and didn&amp;rsquo;t want to watch them all again&#xA;just to find the papers, I&amp;rsquo;ve downloaded the subtitle with the command below,&#xA;and searched for all the occurrences of the term &amp;ldquo;paper&amp;rdquo;, then looked at the&#xA;corresponding timestamps.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The many faces of the XOR operation</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</link>
-      <pubDate>Mon, 05 Jan 2026 18:45:20 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</guid>
-      <description>&lt;p&gt;XOR has always struck me as the odd one among the logical operators; since I&#xA;first learned about it, I always felt a strange fascination with it. I think I&#xA;was taught about it by my father, who cultivated my interest in computers and&#xA;taught me programming when I was 7. I remember that the AND and OR operations&#xA;were clear to me, and their use in the logic of a program; on the other hand,&#xA;XOR seemed esoteric and not really useful, since I could easily program the same&#xA;behavior with a combination of AND and OR.  As I progressed in my programming&#xA;journey and learned much more, I became aware of the strangeness and power of&#xA;XOR. In this post, I explore the many interpretations of XOR, and why it&#xA;deserves a unique appreciation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>mixpost 2026W01</title>
-      <link>https://giampaolo.guiducci.it/posts/2026-01-01-mixpost-2026w01/</link>
-      <pubDate>Thu, 01 Jan 2026 19:01:21 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2026-01-01-mixpost-2026w01/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QZkgByta4Kg&#34;&gt;Doomwork - Winning The War On Error&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jmvCwjzpfuk&#34;&gt;Lola Young - Spiders&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yf5Yp2WjQ5M&#34;&gt;Endeless Dive - Above the Trees&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jTv8-DWWW3I&#34;&gt;Explosions in the Sky - Moving On&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=pgCBxvt1I18&#34;&gt;AFX - Where&amp;rsquo;s Your Girlfriend?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=QZkgByta4Kg,jmvCwjzpfuk,yf5Yp2WjQ5M,jTv8-DWWW3I,pgCBxvt1I18&#34;&gt;2026W01 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The People of Emacs are my tribe</title>
-      <link>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</link>
-      <pubDate>Tue, 02 Dec 2025 21:34:52 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</guid>
-      <description>&lt;p&gt;The People of Emacs are my tribe, even if I never met anyone of them in person.&#xA;They are my tribe because I believe that sharing matters, and I feel that they&#xA;do too. I&amp;rsquo;ve been able to use and enjoy Emacs all these years because of their&#xA;generosity, and I hope one day to pay them back.&lt;/p&gt;&#xA;&lt;p&gt;The People of Emacs have been my tribe since I first watched the video lectures&#xA;for &lt;a href=&#34;https://www.youtube.com/playlist?list=PLE18841CABEA24090&#34;&gt;MIT 6.001 Structure and Intepretation of Computer Programs&lt;/a&gt;, and what I saw&#xA;expressed something I had always felt subconsciously, but had never been able to&#xA;articulate: that computer use and computer programming were fundamentally the&#xA;same activity; that coding was closer to casting spells than to doing&#xA;engineering; and that Lisp was the arcane language of choice for spellbinding&#xA;the computer.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Idea: Personal Music Player in a smartwatch form factor</title>
-      <link>https://giampaolo.guiducci.it/posts/2025-01-03-pmp-smartwatch-formfactor/</link>
-      <pubDate>Fri, 03 Jan 2025 16:10:38 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2025-01-03-pmp-smartwatch-formfactor/</guid>
-      <description>&lt;p&gt;I wish there was a personal music player in a smartwatch form factor. It would&#xA;be a device I could easily take along on a long walk, with uninterrupted music,&#xA;free from notifications, and able to display the song title and artist with just&#xA;a wrist turn.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s what such a device should ideally offer:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Completely offline functionality&lt;/li&gt;&#xA;&lt;li&gt;No smartphone syncing required&lt;/li&gt;&#xA;&lt;li&gt;Local storage of at least 64/128 GB, with SD card expandability&lt;/li&gt;&#xA;&lt;li&gt;Bluetooth connectivity for headphones or speakers&lt;/li&gt;&#xA;&lt;li&gt;A large, low-power screen for easy visibility&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>  Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
+	<channel>
+		<title>posts on Giampaolo Guiducci</title>
+		<link>https://giampaolo.guiducci.it/posts/</link>
+		<description>Recent content in posts on Giampaolo Guiducci</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://giampaolo.guiducci.it/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>mixpost 2026W32</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-08-04-mixpost-2026w32/</link>
+				<pubDate>Tue, 04 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-08-04-mixpost-2026w32/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=qmSCuWJZo00&#34;&gt;https://www.youtube.com/watch?v=qmSCuWJZo00&lt;/a&gt;][Tigran Hamasyan - Red, White and Black Worlds]&lt;/li&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=4rL3ATRkeKw&#34;&gt;https://www.youtube.com/watch?v=4rL3ATRkeKw&lt;/a&gt;][Anna von Hausswolff - Struggle With the Beast]&lt;/li&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=Ki9S6npZeV4&#34;&gt;https://www.youtube.com/watch?v=Ki9S6npZeV4&lt;/a&gt;][Fjørt - ær // mir]&lt;/li&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=Tu9KgGqXDyw&#34;&gt;https://www.youtube.com/watch?v=Tu9KgGqXDyw&lt;/a&gt;][Title Fight - Head in The Ceiling Fan]&lt;/li&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=mhqN0xVAAzQ&#34;&gt;https://www.youtube.com/watch?v=mhqN0xVAAzQ&lt;/a&gt;][Daniel Avery - Lemon]&lt;/li&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=hK5FuEMdVho&#34;&gt;https://www.youtube.com/watch?v=hK5FuEMdVho&lt;/a&gt;][Fiddlehead - Baby I&amp;rsquo;ll Change]&lt;/li&gt;&#xA;&lt;li&gt;[[&lt;a href=&#34;https://www.youtube.com/watch?v=2_3dfvNYFik&#34;&gt;https://www.youtube.com/watch?v=2_3dfvNYFik&lt;/a&gt;][Shellac - Pull The Cap]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=qmSCuWJZo00,4rL3ATRkeKw,Ki9S6npZeV4,Tu9KgGqXDyw,mhqN0xVAAzQ,hK5FuEMdVho,2_3dfvNYFik&#34;&gt;2026W32 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Recompiling my family-name coat of arms</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-05-23-recompiling-my-family-name-coat-of-arms/</link>
+				<pubDate>Sat, 23 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-05-23-recompiling-my-family-name-coat-of-arms/</guid>
+				<description>&lt;p&gt;I had always vaguely known that my family name has Tuscan roots. There was a&#xA;Mario Guiducci, for instance, a friend and pupil of Galileo who in 1619 put his&#xA;name to a &lt;em&gt;Discourse on Comets&lt;/em&gt;, a treatise that, as it happens, was largely&#xA;written by Galileo himself. One evening I found myself thinking about this&#xA;again, and doing some idle research online I stumbled into the various coats of&#xA;arms attached to the name. I was fascinated by them, not because I believe in&#xA;noble blood or want to claim any, but because the idea of having an image tied&#xA;to my name, a logo, somehow made my own lineage feel concrete.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Do Not Come</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</link>
+				<pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-05-18-do-not-come/</guid>
+				<description>&lt;p&gt;My dear M.M.,&lt;/p&gt;&#xA;&lt;p&gt;generous and distant friend, I have received &lt;a href=&#34;https://sccode.org/1-4S3&#34;&gt;your gift&lt;/a&gt;! What magic lies in this&#xA;Carillon you have bestowed upon me — I am most grateful. You know how dearly I&#xA;love both music and mechanisms, and so this has been the perfect gift. I spent&#xA;hours opening it and closing it, and you can imagine my astonishment when I&#xA;realized it required no winding, no mechanical charge of any kind, and yet it&#xA;could play without cease for hours, then days&amp;hellip; and further, that each time I&#xA;opened it, it would generate a different melody, despite departing always from&#xA;the same fixed selection of notes. What a wonder of craft and of art!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mixpost 2026W20</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-05-12-mixpost-2026w20/</link>
+				<pubDate>Tue, 12 May 2026 20:44:26 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-05-12-mixpost-2026w20/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZIl2n3Bslzw&#34;&gt;Culture Wars - Don&amp;rsquo;t Speak&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YB6DKK1OwzU&#34;&gt;SHXCXCHCXSH - iiijjjiii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vnIOFl_jt1M&#34;&gt;OK Goodnight - 22&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gY1ayBcPIGI&#34;&gt;Basement - Head Alight&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YozZog5DRzI&#34;&gt;State Faults - Wildfires&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=dnZAedxwVlQ&#34;&gt;Autechre - Altibizz&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=ZIl2n3Bslzw,YB6DKK1OwzU,vnIOFl_jt1M,gY1ayBcPIGI,YozZog5DRzI,dnZAedxwVlQ&#34;&gt;2026W20 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>May I recommend… vibemacsing?</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-05-09-may-i-recommend-vibemacsing/</link>
+				<pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-05-09-may-i-recommend-vibemacsing/</guid>
+				<description>&lt;p&gt;Over the last couple of years, I&amp;rsquo;ve been using my own eval test to gauge the&#xA;coding capabilities of frontier LLMs. Obviously, the test involves Emacs. The&#xA;test: write a function that marks the text rectangle under the cursor. At first&#xA;glance, it seems like a simple test, but in reality it has a whole series of&#xA;subtleties: it must use mark-rectangle and not a simple set-mark, it must find&#xA;the rectangle&amp;rsquo;s vertical and horizontal boundaries (bounded by whitespace, empty&#xA;lines, or buffer start/end), and it must handle text rectangles made of lines of&#xA;different sizes. My example use case is trivial: have a series of lines with&#xA;hostname, IP address, and netmask separated into columns with whitespace, place&#xA;the cursor on an IP address, and select them all with a single command,&#xA;excluding the other columns. I tried for several months, but no LLM produced a&#xA;correct function. Then, in January of this year, something changed: Claude Code&#xA;generated &lt;a href=&#34;https://github.com/gosub/.emacs.d/blob/master/gg-lisp/mark-column-rectangle.el&#34;&gt;what I had imagined on the first try&lt;/a&gt;. That was a turning point: I&#xA;realized that the code generated by LLMs could compete with, and potentially&#xA;surpass, what we humans write.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mixpost 2026W15</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-04-07-mixpost-2026w15/</link>
+				<pubDate>Tue, 07 Apr 2026 08:29:33 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-04-07-mixpost-2026w15/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=a8wLHhFfkjg&#34;&gt;Model/Actriz - Glassman&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1orn0ofkpO8&#34;&gt;Militarie Gun - Though You Were Waiving&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FD5hmkcXLnI&#34;&gt;Hitohira - en&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0Ssi-9wS1so&#34;&gt;Angine de Poitrine - Full Performance (Live on KEXP)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=afhy9n3e-uQ&#34;&gt;Tiffany Day - EVERYTHING I&amp;rsquo;VE EVER WANTED&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FlVRTdrRnFU&#34;&gt;Alewya - Eshi&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=a8wLHhFfkjg,1orn0ofkpO8,FD5hmkcXLnI,0Ssi-9wS1so,afhy9n3e-uQ,FlVRTdrRnFU&#34;&gt;2026W15 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Notes from the Curve</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</link>
+				<pubDate>Sun, 29 Mar 2026 14:55:23 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-03-29-notes-from-the-curve/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve always wondered what it would have been like to live in the early years of&#xA;the last century, while relativity and quantum physics were rewriting what we&#xA;thought possible. My not-so-original take: we are in an analogous situation&#xA;now. Our world is going to change in ways we can hardly imagine. The following&#xA;notes are some of those ways.&lt;/p&gt;&#xA;&lt;h2 id=&#34;low-background-text&#34;&gt;Low background text&lt;/h2&gt;&#xA;&lt;p&gt;Some specialized particle detectors need metal without any trace of&#xA;radiation. The problem is that any metallurgic product fabricated after the&#xA;Second World War is contaminated. Scientists are then forced to &lt;a href=&#34;https://en.wikipedia.org/wiki/Low-background_steel&#34;&gt;recover steel&#xA;and other metals from underwater shipwrecks&lt;/a&gt;, where the water above shielded the&#xA;metal from radiation. All this preamble to say that LLMs have contaminated all&#xA;the available text in the world, a language fallout of sorts. Scientists will&#xA;need to recover as much text as possible produced before the advent of ChatGPT&#xA;to have a realistic view of what human language really is.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Boot, Prompt, Run: what happens to personal computing when software writes itself</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</link>
+				<pubDate>Sun, 15 Mar 2026 08:20:22 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-03-15-boot-prompt-run/</guid>
+				<description>&lt;p&gt;Imagine turning on a computer. There is no operating system, no desktop, no&#xA;apps. The machine holds just enough code to make a single HTTPS call. It&#xA;reaches out to a remote LLM, describes its hardware, and asks for a system.&#xA;Seconds later, it is running one: built from scratch, tailored to this specific&#xA;machine and this specific user. Nothing was installed. Nothing needs to be&#xA;stored. The software was conjured into existence and will vanish when the power&#xA;goes off, if you want it to.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A mareal is a collection of tides</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-03-04-a-mareal-is-a-collection-of-tides/</link>
+				<pubDate>Wed, 04 Mar 2026 17:58:02 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-03-04-a-mareal-is-a-collection-of-tides/</guid>
+				<description>&lt;p&gt;Many moons ago I was really into live-coding, the practice of creating&#xA;electronic music in real time with a programming language. I never performed, but&#xA;I played extensively with many live-coding tools: Csound, SuperCollider and my&#xA;favourite, Tidal Cycles (aka Tidal).&lt;/p&gt;&#xA;&lt;p&gt;Tidal Cycles is a Haskell library that can be used in a text editor or a REPL to&#xA;create musical patterns that are then rendered to audio with SuperCollider. I&#xA;was struck by the beauty of it: leveraging functional programming to create&#xA;music while &lt;em&gt;composing&lt;/em&gt; functions.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Against Programs That Violate Your $HOME</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</link>
+				<pubDate>Wed, 25 Feb 2026 11:27:00 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-02-25-against-programs-that-violate-your-home/</guid>
+				<description>&lt;p&gt;I think of my home folder as a physical space. A room where I keep the stuff I&#xA;care about. There is a class of programs that enter this room without knocking&#xA;on the door and think that dumping their dirty laundry on my floor is perfectly&#xA;fine.&lt;/p&gt;&#xA;&lt;p&gt;Watching my space being polluted by applications that carelessly scatter their&#xA;dotfiles and directories everywhere, when a well-known standard (XDG) and&#xA;dedicated subfolders exist for exactly this purpose (&lt;code&gt;.cache&lt;/code&gt;, &lt;code&gt;.config&lt;/code&gt;,&#xA;&lt;code&gt;.local&lt;/code&gt;, and so on), feels like a violation of my personal space.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mixpost 2026W08</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</link>
+				<pubDate>Mon, 16 Feb 2026 20:33:27 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-02-16-mixpost-2026w08/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yPt3-lB5Lsc&#34;&gt;Joy Division - Shadowplay&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=neglkknTYB4&#34;&gt;James Blake - Death of Love (Live)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fV8bKLHKLYI&#34;&gt;Joji - Last of a Dying Breed / Dior&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PUf9_1jsCyY&#34;&gt;Russian Circles - Gnosis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=c5kM3iwYVi0&#34;&gt;LCD Soundsystem - New York I Love You, But You&amp;rsquo;re Bringing Me Down&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=t3ObX0H7-Xc&#34;&gt;Mei Semones - Inaka&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Id-ZDSp1Cro&#34;&gt;Flea - Thinkin &amp;lsquo;Bout You&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uc5NSUrnF70&#34;&gt;Fred Again&amp;hellip; &amp;amp; Jamie T - Lights Burn Dimmer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Hq2y9iAaHC4&#34;&gt;little image - KILL THE GHOST&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=yPt3-lB5Lsc,neglkknTYB4,fV8bKLHKLYI,PUf9_1jsCyY,c5kM3iwYVi0,t3ObX0H7-Xc,Id-ZDSp1Cro,uc5NSUrnF70,Hq2y9iAaHC4&#34;&gt;2026W08 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>All the papers cited in Andrej Karpathy&#39;s YouTube videos</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</link>
+				<pubDate>Mon, 09 Feb 2026 20:51:32 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-02-09-karpathy-video-papers/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve been following &lt;a href=&#34;https://www.youtube.com/@AndrejKarpathy/videos&#34;&gt;Andrej Karpathy&amp;rsquo;s YouTube channel&lt;/a&gt; for a long time, and he&#xA;made me want to dive deep into AI, Neural Networks and LLMs. His videos are&#xA;interesting, precise and engaging, and they pushed me to read primary sources,&#xA;i.e. papers and articles. I&amp;rsquo;ve collected here all the papers that were mentioned&#xA;in the various videos, as a personal reminder to read them all.&lt;/p&gt;&#xA;&lt;p&gt;Since I&amp;rsquo;ve already seen all the videos and didn&amp;rsquo;t want to watch them all again&#xA;just to find the papers, I&amp;rsquo;ve downloaded the subtitle with the command below,&#xA;and searched for all the occurrences of the term &amp;ldquo;paper&amp;rdquo;, then looked at the&#xA;corresponding timestamps.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The many faces of the XOR operation</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</link>
+				<pubDate>Mon, 05 Jan 2026 18:45:20 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-01-05-many-faces-of-xor/</guid>
+				<description>&lt;p&gt;XOR has always struck me as the odd one among the logical operators; since I&#xA;first learned about it, I always felt a strange fascination with it. I think I&#xA;was taught about it by my father, who cultivated my interest in computers and&#xA;taught me programming when I was 7. I remember that the AND and OR operations&#xA;were clear to me, and their use in the logic of a program; on the other hand,&#xA;XOR seemed esoteric and not really useful, since I could easily program the same&#xA;behavior with a combination of AND and OR.  As I progressed in my programming&#xA;journey and learned much more, I became aware of the strangeness and power of&#xA;XOR. In this post, I explore the many interpretations of XOR, and why it&#xA;deserves a unique appreciation.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mixpost 2026W01</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-01-01-mixpost-2026w01/</link>
+				<pubDate>Thu, 01 Jan 2026 19:01:21 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-01-01-mixpost-2026w01/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QZkgByta4Kg&#34;&gt;Doomwork - Winning The War On Error&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jmvCwjzpfuk&#34;&gt;Lola Young - Spiders&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yf5Yp2WjQ5M&#34;&gt;Endeless Dive - Above the Trees&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jTv8-DWWW3I&#34;&gt;Explosions in the Sky - Moving On&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=pgCBxvt1I18&#34;&gt;AFX - Where&amp;rsquo;s Your Girlfriend?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch_videos?video_ids=QZkgByta4Kg,jmvCwjzpfuk,yf5Yp2WjQ5M,jTv8-DWWW3I,pgCBxvt1I18&#34;&gt;2026W01 YouTube playlist&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The People of Emacs are my tribe</title>
+				<link>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</link>
+				<pubDate>Tue, 02 Dec 2025 21:34:52 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2025-12-02-emacs-people-are-my-tribe/</guid>
+				<description>&lt;p&gt;The People of Emacs are my tribe, even if I never met anyone of them in person.&#xA;They are my tribe because I believe that sharing matters, and I feel that they&#xA;do too. I&amp;rsquo;ve been able to use and enjoy Emacs all these years because of their&#xA;generosity, and I hope one day to pay them back.&lt;/p&gt;&#xA;&lt;p&gt;The People of Emacs have been my tribe since I first watched the video lectures&#xA;for &lt;a href=&#34;https://www.youtube.com/playlist?list=PLE18841CABEA24090&#34;&gt;MIT 6.001 Structure and Intepretation of Computer Programs&lt;/a&gt;, and what I saw&#xA;expressed something I had always felt subconsciously, but had never been able to&#xA;articulate: that computer use and computer programming were fundamentally the&#xA;same activity; that coding was closer to casting spells than to doing&#xA;engineering; and that Lisp was the arcane language of choice for spellbinding&#xA;the computer.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Idea: Personal Music Player in a smartwatch form factor</title>
+				<link>https://giampaolo.guiducci.it/posts/2025-01-03-pmp-smartwatch-formfactor/</link>
+				<pubDate>Fri, 03 Jan 2025 16:10:38 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2025-01-03-pmp-smartwatch-formfactor/</guid>
+				<description>&lt;p&gt;I wish there was a personal music player in a smartwatch form factor. It would&#xA;be a device I could easily take along on a long walk, with uninterrupted music,&#xA;free from notifications, and able to display the song title and artist with just&#xA;a wrist turn.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s what such a device should ideally offer:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Completely offline functionality&lt;/li&gt;&#xA;&lt;li&gt;No smartphone syncing required&lt;/li&gt;&#xA;&lt;li&gt;Local storage of at least 64/128 GB, with SD card expandability&lt;/li&gt;&#xA;&lt;li&gt;Bluetooth connectivity for headphones or speakers&lt;/li&gt;&#xA;&lt;li&gt;A large, low-power screen for easy visibility&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>  Soldering Musikding &#34;Der Acapulco&#34; overdrive kit
   </title>
-      <link>https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/</link>
-      <pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/</guid>
-      <description>&lt;p&gt;I took advantage of the winter holidays to solder and assemble &amp;ldquo;&lt;a href=&#34;https://www.musikding.de/The-Acapulco-Overdrive-kit&#34;&gt;Der Acapulco&lt;/a&gt;&amp;rdquo;&#xA;overdrive pedal kit from &lt;a href=&#34;https://www.musikding.de/&#34;&gt;Musikding.de&lt;/a&gt;. The pedal is a clone of the&#xA;&amp;ldquo;&lt;a href=&#34;https://www.earthquakerdevices.com/acapulco-gold&#34;&gt;Acapulco Gold&lt;/a&gt;&amp;rdquo; pedal from EarthQuaker Device, which is itself based on the power&#xA;section of a vintage Sunn Model T amplifier. The circuit is very simple, it&#xA;consists of two LM386 op-amps in series and a single large knob to adjust the&#xA;volume.&lt;/p&gt;&#xA;&lt;p&gt;It was my first soldering experience, and I must say that it was not difficult,&#xA;once you acquired a minimum of soldering technique and found the right&#xA;combination of solder and soldering iron temperature.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Random patch generator for Behringer Edge</title>
-      <link>https://giampaolo.guiducci.it/posts/2024-12-28-edge-random-patch/</link>
-      <pubDate>Sat, 28 Dec 2024 16:33:35 +0100</pubDate>
-      <guid>https://giampaolo.guiducci.it/posts/2024-12-28-edge-random-patch/</guid>
-      <description>&lt;p&gt;Inspired by the &lt;a href=&#34;https://www.youtube.com/watch?v=lbQn_pRpsL8&#34;&gt;video from mylarmelodies&lt;/a&gt; where he discuss with Tom Whitwell&#xA;about The Music Thing Workshop System.  In that video Tom says that he created a&#xA;random patch generator for the Workshop System, and I wanted to make one for&#xA;the synth I have, the Behringer Edge.&lt;/p&gt;&#xA;&lt;style&gt;&#xA;    .pair {&#xA;        display: flex;&#xA;        align-items: center;&#xA;        margin: 15px 0;&#xA;    }&#xA;&#xA;    .input, .output {&#xA;        height: 30px;&#xA;        border-radius: 25px;&#xA;        padding: 0 20;&#xA;        font-weight: bold;&#xA;        line-height: 30px;&#xA;        text-align: center;&#xA;&#x9;    width: 170px;  /* Fixed width for input and output */&#xA;    }&#xA;&#xA;    .input {&#xA;        border: 2px solid black;&#xA;&#xA;    }&#xA;&#xA;    .output {&#xA;        background-color: black;&#xA;        color: white;&#xA;        margin-left: 10px;  /* Space between input and output */&#xA;    }&#xA;&#xA;    button {&#xA;        padding: 10px 20px;&#xA;        font-size: 16px;&#xA;        cursor: pointer;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;button onclick=&#34;generatePairs()&#34;&gt;Generate random patch&lt;/button&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
+				<link>https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/</link>
+				<pubDate>Mon, 30 Dec 2024 16:40:07 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2024-12-30-soldering-der-acapulco/</guid>
+				<description>&lt;p&gt;I took advantage of the winter holidays to solder and assemble &amp;ldquo;&lt;a href=&#34;https://www.musikding.de/The-Acapulco-Overdrive-kit&#34;&gt;Der Acapulco&lt;/a&gt;&amp;rdquo;&#xA;overdrive pedal kit from &lt;a href=&#34;https://www.musikding.de/&#34;&gt;Musikding.de&lt;/a&gt;. The pedal is a clone of the&#xA;&amp;ldquo;&lt;a href=&#34;https://www.earthquakerdevices.com/acapulco-gold&#34;&gt;Acapulco Gold&lt;/a&gt;&amp;rdquo; pedal from EarthQuaker Device, which is itself based on the power&#xA;section of a vintage Sunn Model T amplifier. The circuit is very simple, it&#xA;consists of two LM386 op-amps in series and a single large knob to adjust the&#xA;volume.&lt;/p&gt;&#xA;&lt;p&gt;It was my first soldering experience, and I must say that it was not difficult,&#xA;once you acquired a minimum of soldering technique and found the right&#xA;combination of solder and soldering iron temperature.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Random patch generator for Behringer Edge</title>
+				<link>https://giampaolo.guiducci.it/posts/2024-12-28-edge-random-patch/</link>
+				<pubDate>Sat, 28 Dec 2024 16:33:35 +0100</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2024-12-28-edge-random-patch/</guid>
+				<description>&lt;p&gt;Inspired by the &lt;a href=&#34;https://www.youtube.com/watch?v=lbQn_pRpsL8&#34;&gt;video from mylarmelodies&lt;/a&gt; where he discuss with Tom Whitwell&#xA;about The Music Thing Workshop System.  In that video Tom says that he created a&#xA;random patch generator for the Workshop System, and I wanted to make one for&#xA;the synth I have, the Behringer Edge.&lt;/p&gt;&#xA;&lt;style&gt;&#xA;    .pair {&#xA;        display: flex;&#xA;        align-items: center;&#xA;        margin: 15px 0;&#xA;    }&#xA;&#xA;    .input, .output {&#xA;        height: 30px;&#xA;        border-radius: 25px;&#xA;        padding: 0 20;&#xA;        font-weight: bold;&#xA;        line-height: 30px;&#xA;        text-align: center;&#xA;&#x9;    width: 170px;  /* Fixed width for input and output */&#xA;    }&#xA;&#xA;    .input {&#xA;        border: 2px solid black;&#xA;&#xA;    }&#xA;&#xA;    .output {&#xA;        background-color: black;&#xA;        color: white;&#xA;        margin-left: 10px;  /* Space between input and output */&#xA;    }&#xA;&#xA;    button {&#xA;        padding: 10px 20px;&#xA;        font-size: 16px;&#xA;        cursor: pointer;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;button onclick=&#34;generatePairs()&#34;&gt;Generate random patch&lt;/button&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
