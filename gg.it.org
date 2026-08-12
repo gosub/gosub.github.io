@@ -67,6 +67,65 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** Musings about /Autofac/ by Philip K. Dick :ai:science_fiction:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-08-12-musings-about-autofac
+:EXPORT_DATE: 2026-08-12T12:14:41+0200
+:END:
+
+/Autofac/ is a 1955 science fiction short story by Philip K. Dick. I won't
+spoil the plot for you, but the premise is that humanity, at the beginning of
+a war, has set up automatic and self-sufficient factories to continue industrial
+production autonomously. Now the war has ended, but the factories won't stop
+producing goods, and they are consuming all of Earth's resources.
+
+As it is usually said, to picture the present, read the science fiction of the
+past. This story is particularly prescient of many of today's topics:
+
+- AI alignment
+- Mass production
+- Environmental effects of over-industrialization
+- Loss of meaning and alienation
+
+The last point in particular is only tangentially covered in the story, but it's
+the driving force behind the actions of the protagonists.
+
+The first thought that came to my mind while reading it was: this is the
+/Paperclip Maximizer/ argument by Nick Bostrom, 50 years in advance. It is even
+more compelling than that, because the paperclip maximizer is an economic
+incentive, while the autofacs in the story were created as an act of
+self-preservation.
+
+Another subtlety in the story is that the problem with the AI/automation is not
+its underspecified or unaligned objective, but its kill switch.  Since it is
+just trying to produce as much as necessary to sustain the quality of life of
+the inhabitants of its area, it is consuming resources at an unsustainable rate,
+just as humans would do, to sustain their standard of living. It is not doing
+anything that would require ASI, an IQ of 1,000 or god-like superpowers. The
+only problem is that it cannot be stopped.
+
+At one point in the story, it is revealed that the autofacs are programmed to
+stop when external production reaches the level of their own production. This
+could seem like a reasonable target at the beginning: we are trying to cover
+current human production for times when humans won't be able to do it, so we
+won't stop until humans are back in control. The obvious post-hoc analysis is
+that the automation would soon capture all resources and means of production,
+thus creating an irreversible monopoly over them.
+
+I do not have a solution for this scenario, nor for AI alignment in general, but
+I noticed a common line of reasoning in both science fiction narratives and many
+alignment arguments: agents will have objectives specified in common language;
+common language will never be specific enough to contain all the shades of
+meaning necessary to align those objectives with our values; agents will fail on
+some corner case arising from an underspecified scenario; we are all
+catastrophically doomed.
+
+Is it realistic? Yes, in the sense that humans make errors, and making errors
+while creating powerful beings is a real danger. But apart from this superficial
+point of view, the argument is short-sighted: we can, and will, use increasingly
+powerful tools to help us minimize dangers and unintended consequences. Will we
+ever be safe? No, but we never were.
+
 ** mixpost 2026W32 :mixpost:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-08-04-mixpost-2026w32
