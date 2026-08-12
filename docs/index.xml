@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://giampaolo.guiducci.it/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Musings about Autofac by Philip K. Dick</title>
+				<link>https://giampaolo.guiducci.it/posts/2026-08-12-musings-about-autofac/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/posts/2026-08-12-musings-about-autofac/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Autofac&lt;/em&gt; is a 1955 science fiction short story by Philip K. Dick. I won&amp;rsquo;t&#xA;spoil the plot for you, but the premise is that humanity, at the beginning of&#xA;a war, has set up automatic and self-sufficient factories to continue industrial&#xA;production autonomously. Now the war has ended, but the factories won&amp;rsquo;t stop&#xA;producing goods, and they are consuming all of Earth&amp;rsquo;s resources.&lt;/p&gt;&#xA;&lt;p&gt;As it is usually said, to picture the present, read the science fiction of the&#xA;past. This story is particularly prescient of many of today&amp;rsquo;s topics:&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>mixpost 2026W32</title>
 				<link>https://giampaolo.guiducci.it/posts/2026-08-04-mixpost-2026w32/</link>

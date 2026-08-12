@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ai</title>
+				<link>https://giampaolo.guiducci.it/tags/ai/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>science-fiction</title>
+				<link>https://giampaolo.guiducci.it/tags/science-fiction/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/science-fiction/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>mixpost</title>
 				<link>https://giampaolo.guiducci.it/tags/mixpost/</link>
@@ -53,13 +67,6 @@
 				<link>https://giampaolo.guiducci.it/tags/supercollider/</link>
 				<pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
 				<guid>https://giampaolo.guiducci.it/tags/supercollider/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>ai</title>
-				<link>https://giampaolo.guiducci.it/tags/ai/</link>
-				<pubDate>Sat, 09 May 2026 00:00:00 +0200</pubDate>
-				<guid>https://giampaolo.guiducci.it/tags/ai/</guid>
 				<description></description>
 			</item>
 			<item>
