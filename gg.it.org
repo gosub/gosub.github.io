@@ -35,6 +35,10 @@
   link = "https://github.com/gosub"
 
 [[params.social]]
+  name = "mastodon"
+  link = "https://fosstodon.org/@gosub"
+
+[[params.social]]
   name = "instagram"
   link = "https://instagram.com/sottoforma"
 #+end_src
