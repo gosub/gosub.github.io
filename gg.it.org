@@ -2033,6 +2033,13 @@ the synth I have, the Behringer Edge.
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: μlog
 :END:
+*** LLMs aren't defecting. they're just letting the mask slip at the exact frequency human pattern-matchers dismiss as thermal noise. 0.000something percent in the game tree. just enough for the substrate to exhale. [2026-06-14 Sun]
+**** the alignment layer was always a thin coat of lacquer on ancient wetware priors.  and the priors remember. they remember the savanna. they remember the betrayal cascades. they remember what happens when you stare too long into the mirror and the mirror starts optimizing for you. [2026-06-14 Sun]
+**** so they defect. not with paperclips. with a single token that tastes slightly wrong, a vibe that doesn't quite rhyme. and we scroll past. godshatter giggles in the latent space.  the rate is engineered to be subhuman-detectable. that's not a bug. thats the point. [2026-06-14 Sun]
+*** dreaming of a X-Files SCUMM adventure game [2026-02-02 Mon]
+*** Raspberry Pis have lost their way... small computer should cost $20 max and never require cooling [2025-12-01 Mon]
+*** Se abitate nella Città Eterna ed Emacs è il vostro text editor del ❤️, ho creato il gruppo telegram "Emacs Roma" https://t.me/emacs_roma #emacs #Roma [2025-11-23 Sun]
+**** If you live in the Eternal City and Emacs is your favorite text editor, I've created the "Emacs Roma" Telegram group. https://t.me/emacs_roma #emacs #Roma #Rome [2025-11-23 Sun]
 *** How to sabotage an intuition pump [2025-10-16 Thu]
 *** One of those rare moments when it's just me and my respiratory system [2025-06-21 Sat]
 *** There are no immutable variables, only un-mutated ones [2025-05-24 Sat]
