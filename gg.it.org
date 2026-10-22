@@ -71,6 +71,60 @@ weight = 4
 giampaolo.guiducci.it
 #+end_src
 * posts
+** Drones will save the world :drone:music:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-10-22-drones-will-save-the-world
+:EXPORT_DATE: 2026-10-22T18:58:28+0200
+:END:
+Bees drone. They make honey, fly, pollinate, dance, throw up, fuck, sting and
+drone. We discovered the drone thanks to them, and with them, movement has
+always been part of the drone. Then we invented air conditioning and the drone
+stopped moving. To restore the balance and bring movement back, we had to invent
+mechanical drones as well, and use them to kill people. Flies drone too, but
+nobody cares because flies aren’t cool.
+
+The words used to describe the drone are mystical: “transcendent”, “hypnotic”,
+“ecstatic”, “tantric”. The drone is anti-mystical: it is entirely visible,
+always, across its whole extent. It hides nothing from you, it promises nothing
+concealed behind the curtain. The drone doesn’t resolve.
+
+I’m sitting at my desk eating crackers and cheese slices, listening to Tim
+Hecker’s “Harmony in Ultraviolet”. It’s Friday morning, I’m on a month of unpaid
+leave, I’m thinking about drone music and I love it.
+
+Micro-movements of the facial muscles, the tone of a voice, the pauses between
+one word and the next, the tension in the shoulders, the direction of a
+gaze. This is drone. Being invited over to look at someone’s holiday photos is
+also drone.
+
+There is a point in the middle of the Atlantic Ocean where, under favourable
+conditions, you can hear the beating between the 60Hz of the entire American
+power grid and the 50Hz of the entire European one. A slight turn of the head is
+enough to make it disappear.
+
+Every time I listen to Éliane Radigue’s Trilogie de la Mort I’m moved to the
+point of tears.
+
+I started training myself to love the drone during the endless summer afternoons
+of my childhood, when the only things to do were long bike rides or reading
+comics. The sound of the pedals, of the tyres on the asphalt, of the wind in my
+ears, trained me for sound. Reading trained me for attention.
+
+At some point you realise the key has changed, but you don’t know when it
+happened. In fact it never happened, or at least it didn’t happen in a single
+moment. Like the end of summer.
+
+The drone as a gateway. The drone as a key to reading. The drone as unsafe
+space. The drone as a non-commercial break. The drone as an act of
+rebellion. The drone as getting lost in the noise of the signal. The drone as
+camouflage technology. The drone as the national anthem of a non-place. The
+drone as an obscenity in the field of analytic geometry. The drone as taking the
+stairs to the astral plane. The drone as portable apocalypse. The drone as
+osmotic music. The drone as not knowing exactly what the drone is. The drone as
+a dream in which you have very big ears and very small hands. The drone as “and
+everything else, too”. The drone as smuggled narrative. The drone as being a bit
+off, forever.
+
 ** Musings about /Autofac/ by Philip K. Dick :ai:science_fiction:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-08-12-musings-about-autofac
