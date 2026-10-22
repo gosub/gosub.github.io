@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://giampaolo.guiducci.it/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>drone</title>
+				<link>https://giampaolo.guiducci.it/tags/drone/</link>
+				<pubDate>Thu, 22 Oct 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/drone/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>music</title>
+				<link>https://giampaolo.guiducci.it/tags/music/</link>
+				<pubDate>Thu, 22 Oct 2026 00:00:00 +0200</pubDate>
+				<guid>https://giampaolo.guiducci.it/tags/music/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>ai</title>
 				<link>https://giampaolo.guiducci.it/tags/ai/</link>
